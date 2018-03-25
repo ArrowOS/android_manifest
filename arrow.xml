@@ -41,6 +41,7 @@
   <project path="system/libhidl" name="android_system_libhidl" groups="pdk" remote="arrow" />
   <project path="system/netd" name="android_system_netd" groups="pdk" remote="arrow" />
   <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="arrow" />
+  <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="lineage" />
   <project path="system/vold" name="android_system_vold" groups="pdk" remote="arrow" />
   <project path="vendor/arrow" name="android_vendor_arrow" remote="arrow" />
 
