@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+
+  <remote  name="lineage"
+           fetch="https://github.com/LineageOS"
+           revision="refs/heads/lineage-15.1" />
+
   <project path="manifest" name="android_manifest" remote="arrow" />
   <project path="build/make" name="android_build" remote="arrow" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -44,5 +49,33 @@
   <!-- Arrow Hardware Repos -->
 
   <!-- Arrow External Repos -->
+  <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="lineage" />
+  <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="lineage" />
+  <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="lineage" />
+  <project path="external/bash" name="android_external_bash" remote="lineage" />
+  <project path="external/brctl" name="android_external_brctl" remote="lineage" />
+  <project path="external/powertop" name="android_external_powertop" remote="lineage" />
+  <project path="external/connectivity" name="android_external_connectivity" groups="pdk" remote="lineage" />
+  <project path="external/ebtables" name="android_external_ebtables" groups="pdk" remote="lineage" />
+  <project path="external/exfat" name="android_external_exfat" remote="lineage" />
+  <project path="external/fuse" name="android_external_fuse" remote="lineage" />
+  <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="lineage" />
+  <project path="external/htop" name="android_external_htop" remote="lineage" />
+  <project path="external/json-c" name="android_external_json-c" remote="lineage" />
+  <project path="external/libncurses" name="android_external_libncurses" remote="lineage" />
+  <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="lineage" />
+  <project path="external/libtar" name="android_external_libtar" remote="lineage" />
+  <project path="external/mksh" name="android_external_mksh" groups="pdk" remote="lineage" />
+  <project path="external/nano" name="android_external_nano" remote="lineage" />
+  <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="lineage" />
+  <project path="external/p7zip" name="android_external_p7zip" remote="lineage" />
+  <project path="external/pigz" name="android_external_pigz" remote="lineage" />
+  <project path="external/rsync" name="android_external_rsync" remote="lineage" />
+  <project path="external/unrar" name="android_external_unrar" remote="lineage" />
+  <project path="external/vim" name="android_external_vim" remote="lineage" />
+  <project path="external/zip" name="android_external_zip" remote="lineage" />
+  <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" remote="lineage" />
+  <project path="external/selinux" name="android_external_selinux" groups="pdk" remote="lineage" />
+  <project path="external/toybox" name="android_external_toybox" groups="pdk" remote="lineage" />
 </manifest> 
 
