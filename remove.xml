@@ -38,5 +38,20 @@
   <remove-project name="platform/build" />
   <remove-project name="platform/build/kati" />
   <remove-project name="platform/build/soong" />
+  <remove-project name="platform/bionic" />
+  <remove-project name="platform/external/wpa_supplicant_8" />
+  <remove-project name="platform/frameworks/av" />
+  <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/native" />
+  <remove-project name="platform/frameworks/opt/telephony" />
+  <remove-project name="platform/system/bt" />
+  <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/extras" />
+  <remove-project name="platform/system/sepolicy" />
+  <remove-project name="platform/system/vold" />
+  <remove-project name="platform/system/hardware/interfaces" />
+  <remove-project name="platform/system/hwservicemanager" />
+  <remove-project name="platform/system/libhidl" />
+  <remove-project name="platform/system/netd" />
 </manifest>
 

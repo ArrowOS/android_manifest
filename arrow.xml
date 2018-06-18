@@ -15,5 +15,34 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+
+  <!-- Arrow Core Repos -->
+  <project path="bionic" name="android_bionic" groups="pdk" remote="arrow" />
+  <project path="device/arrow/sepolicy" name="android_device_arrow_sepolicy" remote="arrow" />
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="arrow" />
+  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" groups="pdk" remote="arrow" />
+  <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="arrow" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="arrow" />
+  <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="arrow" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" groups="pdk" remote="arrow" />
+  <project path="hardware/arrow/interfaces" name="android_hardware_arrow_interfaces" remote="arrow" >
+      <copyfile dest="hardware/arrow/Android.bp" src="Android.bp"/>
+  </project>
+  <project path="system/bt" name="android_system_bt" groups="pdk" remote="arrow" />
+  <project path="system/core" name="android_system_core" groups="pdk" remote="arrow" />
+  <project path="system/extras" name="android_system_extras" groups="pdk" remote="arrow" />
+  <project path="system/hardware/interfaces" name="android_system_hardware_interfaces" groups="pdk" remote="arrow" />
+  <project path="system/hwservicemanager" name="android_system_hwservicemanager" groups="pdk" remote="arrow" />
+  <project path="system/libhidl" name="android_system_libhidl" groups="pdk" remote="arrow" />
+  <project path="system/netd" name="android_system_netd" groups="pdk" remote="arrow" />
+  <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="arrow" />
+  <project path="system/vold" name="android_system_vold" groups="pdk" remote="arrow" />
+  <project path="vendor/arrow" name="android_vendor_arrow" remote="arrow" />
+
+  <!-- Arrow Packages Repos -->
+
+  <!-- Arrow Hardware Repos -->
+
+  <!-- Arrow External Repos -->
 </manifest> 
 
