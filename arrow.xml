@@ -23,6 +23,7 @@
 
   <!-- Arrow Core Repos -->
   <project path="bionic" name="android_bionic" groups="pdk" remote="arrow" />
+  <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="arrow" />
   <project path="device/arrow/sepolicy" name="android_device_arrow_sepolicy" remote="arrow" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="arrow" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" groups="pdk" remote="arrow" />
