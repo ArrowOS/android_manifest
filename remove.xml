@@ -85,6 +85,8 @@
   <remove-project name="platform/packages/apps/TimeZoneData" />
   <remove-project name="platform/packages/apps/TimeZoneUpdater" />
   <remove-project name="platform/packages/apps/Nfc" />
+  <remove-project name="platform/packages/providers/MediaProvider" />
+  <remove-project name="platform/packages/providers/DownloadProvider" />
   <remove-project name="platform/packages/services/Telephony" />
   <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/system/bt" />
