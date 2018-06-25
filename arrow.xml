@@ -111,6 +111,7 @@
   <project path="external/brctl" name="android_external_brctl" remote="lineage" />
   <project path="external/powertop" name="android_external_powertop" remote="lineage" />
   <project path="external/connectivity" name="android_external_connectivity" groups="pdk" remote="lineage" />
+  <project path="external/chromium-webview" name="android_external_chromium-webview" groups="pdk" remote="lineage" clone-depth="1" />
   <project path="external/ebtables" name="android_external_ebtables" groups="pdk" remote="lineage" />
   <project path="external/exfat" name="android_external_exfat" remote="lineage" />
   <project path="external/fuse" name="android_external_fuse" remote="lineage" />
