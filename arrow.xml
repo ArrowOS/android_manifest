@@ -31,6 +31,7 @@
   <project path="frameworks/base" name="android_frameworks_base" remote="arrow" />
   <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="arrow" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" groups="pdk" remote="arrow" />
+  <project path="frameworks/support" name="android_frameworks_support" remote="arrow" />
   <project path="hardware/arrow/interfaces" name="android_hardware_arrow_interfaces" remote="arrow" >
       <copyfile dest="hardware/arrow/Android.bp" src="Android.bp"/>
   </project>
