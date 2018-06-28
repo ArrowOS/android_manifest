@@ -48,9 +48,11 @@
   <project path="vendor/arrow" name="android_vendor_arrow" remote="arrow" />
 
   <!-- Arrow Packages Repos -->
+  <project path="packages/apps/DUI" name="android_packages_apps_DUI" groups="pdk-fs" remote="arrow" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" groups="pdk-fs" remote="arrow" />
   <project path="packages/apps/Phonograph" name="android_packages_apps_Phonograph" groups="pdk-fs" remote="arrow" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" groups="pdk-fs" remote="arrow" />
+  <project path="packages/apps/Snap" name="android_packages_apps_Snap" groups="pdk-fs" remote="arrow" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" groups="pdk-fs" remote="lineage" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="arrow" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="arrow" />
@@ -104,6 +106,7 @@
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" groups="qcom_camera" remote="lineage" />
   <project path="system/nfc" name="android_system_nfc" groups="pdk" remote="lineage" />
   <project path="system/update_engine" name="android_system_update_engine" groups="pdk" remote="lineage" />
+  <project path="device/qcom/common" name="android_device_qcom_common" groups="pdk" remote="lineage" />
 
   <!-- Arrow External Repos -->
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="lineage" />
@@ -114,6 +117,7 @@
   <project path="external/powertop" name="android_external_powertop" remote="lineage" />
   <project path="external/connectivity" name="android_external_connectivity" groups="pdk" remote="lineage" />
   <project path="external/chromium-webview" name="android_external_chromium-webview" groups="pdk" remote="lineage" clone-depth="1" />
+  <project path="external/DUtils" name="android_external_DUtils" groups="pdk" remote="arrow" />
   <project path="external/ebtables" name="android_external_ebtables" groups="pdk" remote="lineage" />
   <project path="external/exfat" name="android_external_exfat" remote="lineage" />
   <project path="external/fuse" name="android_external_fuse" remote="lineage" />
