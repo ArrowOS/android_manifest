@@ -9,12 +9,13 @@
            fetch="https://github.com/" />
 
   <remote  name="arrow"
-           fetch="ssh://git@gitlab.com/ArrowOS"
+           fetch="https://github.com/ArrowOS"
            revision="refs/heads/arrow-8.x" />
 
   <default revision="refs/tags/android-8.1.0_r33"
            remote="aosp"
-           sync-j="4" />
+           sync-j="4"
+           sync-c="true"/>
 
   <project path="build/make" name="platform/build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
