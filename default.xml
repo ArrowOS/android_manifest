@@ -13,6 +13,10 @@
 	   review="https://review.arrowos.net/"
            revision="refs/heads/arrow-8.x" />
 
+  <remote  name="devices"
+           fetch="https://github.com/ArrowOS-Devices"
+           revision="refs/heads/arrow-8.x" />
+
   <default revision="refs/tags/android-8.1.0_r33"
            remote="aosp"
            sync-j="4"
