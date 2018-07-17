@@ -162,5 +162,10 @@
   <project path="vendor/nxp/opensource/external/libnfc-nci" name="android_vendor_nxp_opensource_external_libnfc-nci" remote="lineage" />
   <project path="vendor/nxp/opensource/frameworks" name="android_vendor_nxp_opensource_frameworks" remote="lineage" />
   <project path="vendor/nxp/opensource/packages/apps/Nfc" name="android_vendor_nxp_opensource_packages_apps_Nfc" remote="lineage" />
+
+  <!-- ArrowOS scripts -->
+  <project path="vendor/arrow/scripts" name="arrow_scripts" remote="arrow" revision="master" >
+    <linkfile dest="merge-push.sh" src="vendor/arrow/scripts/merge-push.sh" />
+  </project>
 </manifest> 
 
