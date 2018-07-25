@@ -3,7 +3,7 @@
 # ArrowOS
 
  Refer to our detailed guide on how to compile ArrowOS for your device, as well
- as how to apply for official maintainership [**HERE**](blog.arrowos.net)
+ as how to apply for official maintainership [**HERE**](https://blog.arrowos.net/)
 
 ---------------------------------------------------------------------------------------------------------------------
 
