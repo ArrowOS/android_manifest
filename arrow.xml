@@ -76,6 +76,7 @@
   <project path="hardware/interfaces" name="android_hardware_interfaces" groups="pdk" remote="arrow" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="arrow" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" groups="pdk" remote="arrow" />
+  <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="arrow" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" groups="qcom,qcom_gps" remote="arrow" />
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk" remote="arrow" />
   <project path="hardware/qcom/power" name="android_hardware_qcom_power" groups="qcom,pdk" remote="arrow" />
@@ -91,6 +92,7 @@
   <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="arrow" />
   <project path="external/brctl" name="android_external_brctl" remote="arrow" />
   <project path="external/connectivity" name="android_external_connectivity" remote="arrow" />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="arrow" />
   <project path="external/ebtables" name="android_external_ebtables" remote="arrow" />
   <project path="external/json-c" name="android_external_json-c" remote="arrow" />
   <project path="external/exfat" name="android_external_exfat" remote="arrow" />
@@ -102,6 +104,7 @@
   <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" remote="arrow" />
   <project path="external/selinux" name="android_external_selinux" groups="pdk" remote="arrow" />
   <project path="external/toybox" name="android_external_toybox" groups="pdk" remote="arrow" />
+  <project path="external/zlib" name="android_external_zlib" remote="arrow" />
 
   <!-- Qcom Vendor Repos -->
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="arrow" />
