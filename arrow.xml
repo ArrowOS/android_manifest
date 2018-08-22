@@ -34,6 +34,7 @@
   <project path="system/security" name="android_system_security" groups="pdk" remote="arrow" />
   <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="arrow" />
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="arrow" />
+  <project path="system/tools/hidl" name="android_system_tools_hidl" remote="arrow" />
   <project path="system/vold" name="android_system_vold" groups="pdk" remote="arrow" />
   <project path="vendor/arrow" name="android_vendor_arrow" remote="arrow" />
 
