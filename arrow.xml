@@ -101,6 +101,7 @@
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="arrow" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="arrow" />
   <project path="external/mksh" name="android_external_mksh" groups="pdk" remote="arrow" />
+  <project path="external/perfetto" name="android_external_perfetto" groups="pdk" remote="arrow" />
   <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" remote="arrow" />
   <project path="external/selinux" name="android_external_selinux" groups="pdk" remote="arrow" />
   <project path="external/toybox" name="android_external_toybox" groups="pdk" remote="arrow" />
