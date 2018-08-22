@@ -18,9 +18,11 @@
   </project>
 
   <!-- Arrow Core Repos -->
+  <project path="art" name="android_art" remote="arrow" />
   <project path="bionic" name="android_bionic" groups="pdk" remote="arrow" />
   <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="arrow" />
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="arrow" />
+  <project path="frameworks/compile/mclinker" name="android_frameworks_compile_mclinker" groups="pdk" remote="arrow" />
   <project path="frameworks/base" name="android_frameworks_base" remote="arrow" />
   <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="arrow" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" groups="pdk" remote="arrow" />
@@ -29,17 +31,20 @@
   <project path="system/bt" name="android_system_bt" groups="pdk" remote="arrow" />
   <project path="system/core" name="android_system_core" groups="pdk" remote="arrow" />
   <project path="system/extras" name="android_system_extras" groups="pdk" remote="arrow" />
+  <project path="system/security" name="android_system_security" groups="pdk" remote="arrow" />
   <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="arrow" />
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="arrow" />
   <project path="system/vold" name="android_system_vold" groups="pdk" remote="arrow" />
   <project path="vendor/arrow" name="android_vendor_arrow" remote="arrow" />
 
   <!-- Arrow Packages Repos -->
+  <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="arrow" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" groups="pdk-fs" remote="arrow" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="arrow" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="arrow" />
 
   <!-- Arrow Hardware Repos -->
+  <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" remote="arrow" />
   <project path="hardware/qcom/audio/default" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="arrow" />
   <project path="hardware/qcom/audio-caf/msm8916" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="arrow" revision="arrow-9.x-caf-8916" />
   <project path="hardware/qcom/audio-caf/msm8952" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="arrow" revision="arrow-9.x-caf-8952" />
@@ -64,6 +69,7 @@
   <project path="hardware/qcom/media-caf/msm8994" name="android_hardware_qcom_media" groups="qcom" remote="arrow" revision="arrow-9.x-caf-8994" />
   <project path="hardware/qcom/media-caf/msm8996" name="android_hardware_qcom_media" groups="qcom" remote="arrow" revision="arrow-9.x-caf-8996" />
   <project path="hardware/qcom/media-caf/msm8998" name="android_hardware_qcom_media" groups="qcom" remote="arrow" revision="arrow-9.x-caf-8998" />
+  <project path="hardware/qcom/fm" name="android_hardware_qcom_fm" groups="qcom" remote="arrow" />
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" groups="pdk" remote="arrow" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" groups="pdk" remote="arrow" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" groups="pdk" remote="arrow" />
@@ -75,6 +81,7 @@
   <project path="hardware/ril" name="android_hardware_ril" groups="pdk" remote="arrow" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom" remote="arrow" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan" remote="arrow" />
+  <project path="hardware/qcom/wlan-caf" name="android_hardware_qcom_wlan" groups="qcom_wlan" remote="arrow" revision="arrow-9.x-caf"/>
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" groups="qcom_camera" remote="arrow" />
 
   <!-- Arrow External Repos -->
