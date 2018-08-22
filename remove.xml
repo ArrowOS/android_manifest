@@ -37,6 +37,7 @@
   <remove-project name="device/linaro/hikey-kernel" />
   <remove-project name="device/sample" />
   <remove-project name="kernel/tests" />
+  <remove-project name="platform/art" />
   <remove-project name="platform/build" />
   <remove-project name="platform/build/kati" />
   <remove-project name="platform/build/soong" />
@@ -65,6 +66,7 @@
   <remove-project name="platform/hardware/libhardware_legacy" />
   <remove-project name="platform/hardware/nxp/nfc" />
   <remove-project name="platform/hardware/qcom/audio" />
+  <remove-project name="platform/hardware/qcom/bootctrl" />
   <remove-project name="platform/hardware/qcom/msm8960" />
   <remove-project name="platform/hardware/qcom/msm8994" />
   <remove-project name="platform/hardware/qcom/msm8996" />
@@ -100,7 +102,7 @@
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/extras" />
+  <remove-project name="platform/system/security" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/vold" />
 </manifest>
-
