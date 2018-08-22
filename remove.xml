@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remove-project name="platform/art" />
   <remove-project name="device/common" />
   <remove-project name="device/generic/car" />
   <remove-project name="device/generic/armv7-a-neon" />
