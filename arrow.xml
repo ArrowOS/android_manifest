@@ -42,6 +42,7 @@
   <project path="vendor/arrow" name="android_vendor_arrow" remote="arrow" />
 
   <!-- Arrow Packages Repos -->
+  <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="arrow" />
   <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="arrow" />
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="arrow" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" groups="pdk-fs" remote="arrow" />
