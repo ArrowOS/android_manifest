@@ -98,6 +98,7 @@
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" groups="pdk" remote="arrow" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" groups="pdk" remote="arrow" />
   <project path="hardware/arrow/interfaces" name="android_hardware_arrow_interfaces" groups="pdk" remote="arrow" />
+  <project path="hardware/arrow/telephony" name="android_hardware_arrow_telephony" remote="arrow" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="arrow" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" groups="pdk" remote="arrow" />
   <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="arrow" />
