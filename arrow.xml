@@ -136,8 +136,6 @@
   <project path="external/selinux" name="android_external_selinux" groups="pdk" remote="arrow" />
   <project path="external/toybox" name="android_external_toybox" groups="pdk" remote="arrow" />
   <project path="external/zlib" name="android_external_zlib" remote="arrow" />
-  <project path="external/skia" name="android_external_skia" remote="arrow" />
-  <project path="external/skqp" name="android_external_skqp" remote="arrow" />
 
   <!-- Qcom Vendor Repos -->
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="arrow" />
