@@ -53,6 +53,9 @@
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/toybox" />
   <remove-project name="platform/external/zlib" />
+  <remove-project name="platform/external/skia" />
+  <remove-project name="platform/external/skqp" />
+  <remove-project name="platform/external/vixl" />
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/compile/mclinker" />
   <remove-project name="platform/frameworks/base" />
