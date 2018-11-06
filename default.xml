@@ -18,7 +18,7 @@
 	   review="https://review.arrowos.net/"
            revision="refs/heads/arrow-9.x" />
 
-  <default revision="refs/tags/android-9.0.0_r12"
+  <default revision="refs/tags/android-9.0.0_r16"
            remote="aosp"
            sync-j="4"
            sync-c="true"/>
