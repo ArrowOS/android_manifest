@@ -46,6 +46,7 @@
   <project path="system/vold" name="android_system_vold" groups="pdk" remote="arrow" />
   <project path="system/update_engine" name="android_system_update_engine" groups="pdk" remote="arrow" />
   <project path="vendor/arrow" name="android_vendor_arrow" remote="arrow" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="arrow" />
 
   <!-- Arrow Packages Repos -->
   <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" remote="arrow" />
