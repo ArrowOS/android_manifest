@@ -120,6 +120,7 @@
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom" remote="arrow" />
   <project path="hardware/qcom/bt-caf" name="android_hardware_qcom_bt" groups="qcom" remote="arrow" revision="arrow-9.x-caf" />
   <project path="hardware/qcom/thermal" name="android_hardware_qcom_thermal" remote="arrow" />
+  <project path="hardware/qcom/vr" name="android_hardware_qcom_vr" remote="arrow" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan" remote="arrow" />
   <project path="hardware/qcom/wlan-caf" name="android_hardware_qcom_wlan" groups="qcom_wlan" remote="arrow" revision="arrow-9.x-caf"/>
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" groups="qcom_camera" remote="arrow" />
