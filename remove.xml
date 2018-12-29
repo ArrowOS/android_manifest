@@ -91,8 +91,6 @@
   <remove-project name="platform/hardware/qcom/keymaster" />
   <remove-project name="platform/hardware/qcom/media" />
   <remove-project name="platform/hardware/qcom/wlan" />
-  <remove-project name="platform/hardware/qcom/thermal" />
-  <remove-project name="platform/hardware/qcom/vr" />
   <remove-project name="platform/hardware/ril" />
   <remove-project name="platform/packages/apps/Browser2" />
   <remove-project name="platform/packages/apps/Calendar" />
