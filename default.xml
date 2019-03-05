@@ -18,7 +18,7 @@
 	   review="https://review.arrowos.net/"
            revision="refs/heads/arrow-8.x" />
 
-  <default revision="refs/tags/android-8.1.0_r53"
+  <default revision="refs/tags/android-8.1.0_r62"
            remote="aosp"
            sync-j="4"
            sync-c="true"/>
