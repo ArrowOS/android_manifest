@@ -44,6 +44,7 @@
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/bionic" />
   <remove-project name="platform/bootable/recovery" />
+  <remove-project name="platform/development" />
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/elfutils" />
   <remove-project name="platform/external/f2fs-tools" />
