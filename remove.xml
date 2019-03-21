@@ -102,6 +102,7 @@
   <remove-project name="platform/system/extras" />
   <remove-project name="platform/system/nfc" />
   <remove-project name="platform/system/sepolicy" />
+  <remove-project name="platform/system/tools/hidl" />
   <remove-project name="platform/system/vold" />
   <remove-project name="platform/system/hardware/interfaces" />
   <remove-project name="platform/system/hwservicemanager" />

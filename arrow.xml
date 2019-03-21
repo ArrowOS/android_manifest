@@ -47,6 +47,7 @@
   <project path="system/qcom" name="android_system_qcom" groups="qcom" remote="arrow"/>
   <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="arrow" />
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="lineage" />
+  <project path="system/tools/hidl" name="android_system_tools_hidl" groups="pdk" remote="arrow" />
   <project path="system/vold" name="android_system_vold" groups="pdk" remote="arrow" />
   <project path="vendor/arrow" name="android_vendor_arrow" remote="arrow" />
 
