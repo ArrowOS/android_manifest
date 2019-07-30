@@ -17,6 +17,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" clone-depth="1" remote="arrow" />
+  <project path="prebuilts/clang/host/linux-x86" name="android_prebuilts_clang_host_linux-x86" clone-depth="1" remote="arrow" />
 
   <!-- Arrow Core Repos -->
   <project path="art" name="android_art" remote="arrow" />
