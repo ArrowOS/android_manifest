@@ -23,7 +23,6 @@
   <project path="bionic" name="android_bionic" groups="pdk" remote="arrow" />
   <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="arrow" />
   <project path="development" name="android_development" remote="arrow" />
-  <project path="device/arrow/sepolicy" name="android_device_arrow_sepolicy" remote="arrow" />
   <project path="device/generic/goldfish" name="android_device_generic_goldfish" remote="arrow" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="arrow" />
   <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy-legacy" remote="arrow" />
