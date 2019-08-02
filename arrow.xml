@@ -83,6 +83,7 @@
   <!-- Arrow Hardware Repos -->
   <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" remote="arrow" />
   <project path="hardware/qcom/audio/default" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="arrow" />
+  <project path="hardware/qcom/audio-caf/sdm845" name="android_hardware_qcom_audio" groups="pdk,qcom,qcom_audio" remote="arrow" revision="arrow-9.x-caf-sdm845" />
   <project path="hardware/qcom/audio-caf/sm8150" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="arrow" revision="arrow-9.x-caf-8150" />
   <project path="hardware/qcom/audio-caf/msm8916" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="arrow" revision="arrow-9.x-caf-8916" />
   <project path="hardware/qcom/audio-caf/msm8952" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="arrow" revision="arrow-9.x-caf-8952" />
@@ -92,7 +93,7 @@
   <project path="hardware/qcom/audio-caf/msm8996" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="arrow" revision="arrow-9.x-caf-8996" />
   <project path="hardware/qcom/audio-caf/msm8998" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="arrow" revision="arrow-9.x-caf-8998" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="arrow" />
-  <project path="hardware/qcom/sdm845/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="arrow" revision="arrow-9.x-sdm845" />
+  <project path="hardware/qcom/display-caf/sdm845" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="arrow" revision="arrow-9.x-caf-sdm845" />
   <project path="hardware/qcom/display-caf/sm8150" name="android_hardware_qcom_display" groups="qcom,qcom_display" remote="arrow" revision="arrow-9.x-caf-8150" />
   <project path="hardware/qcom/display-caf/msm8916" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="arrow" revision="arrow-9.x-caf-8916" />
   <project path="hardware/qcom/display-caf/msm8952" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="arrow" revision="arrow-9.x-caf-8952" />
@@ -102,6 +103,7 @@
   <project path="hardware/qcom/display-caf/msm8996" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="arrow" revision="arrow-9.x-caf-8996" />
   <project path="hardware/qcom/display-caf/msm8998" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="arrow" revision="arrow-9.x-caf-8998" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" groups="qcom" remote="arrow"/>
+  <project path="hardware/qcom/media-caf/sdm845" name="android_hardware_qcom_media" groups="qcom" remote="arrow" revision="arrow-9.x-caf-sdm845" />
   <project path="hardware/qcom/media-caf/sm8150" name="android_hardware_qcom_media" groups="qcom" remote="arrow" revision="arrow-9.x-caf-8150" />
   <project path="hardware/qcom/media-caf/msm8916" name="android_hardware_qcom_media" groups="qcom" remote="arrow" revision="arrow-9.x-caf-8916" />
   <project path="hardware/qcom/media-caf/msm8952" name="android_hardware_qcom_media" groups="qcom" remote="arrow" revision="arrow-9.x-caf-8952" />
@@ -131,6 +133,18 @@
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan" remote="arrow" />
   <project path="hardware/qcom/wlan-caf" name="android_hardware_qcom_wlan" groups="qcom_wlan" remote="arrow" revision="arrow-9.x-caf"/>
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" groups="qcom_camera" remote="arrow" />
+
+  <!-- Arrow sdm845 Repos -->
+  <project path="hardware/qcom/sdm845/bt" name="android_hardware_qcom_sdm845_bt" groups="qcom_sdm845" remote="arrow" />
+  <project path="hardware/qcom/sdm845/data/ipacfg-mgr" name="android_hardware_qcom_sdm845_data_ipacfg-mgr" groups="vendor,qcom_sdm845" remote="arrow" >
+    <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
+    <linkfile dest="hardware/qcom/sdm845/Android.bp" src="os_pickup.bp" />
+  </project>
+  <project path="hardware/qcom/sdm845/display" name="android_hardware_qcom_sdm845_display" groups="qcom_sdm845" remote="arrow"/>
+  <project path="hardware/qcom/sdm845/gps" name="android_hardware_qcom_sdm845_gps" groups="qcom_sdm845" remote="arrow"/>
+  <project path="hardware/qcom/sdm845/media" name="android_hardware_qcom_sdm845_media" groups="qcom_sdm845" remote="arrow"/>
+  <project path="hardware/qcom/sdm845/thermal" name="android_hardware_qcom_sdm845_thermal" groups="qcom_sdm845" remote="arrow"/>
+  <project path="hardware/qcom/sdm845/vr" name="android_hardware_qcom_sdm845_vr" groups="qcom_sdm845" remote="arrow"/>
 
   <!-- Arrow External Repos -->
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="arrow" />
