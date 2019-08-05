@@ -17,6 +17,9 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <!-- system repos -->
+  <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="arrow-private" />
+
   <!-- hardware repos -->
   <project path="hardware/qcom/audio/default" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="arrow-pie" />
   <project path="hardware/qcom/audio-caf/sdm845" name="android_hardware_qcom_audio" groups="pdk,qcom,qcom_audio" remote="arrow" revision="arrow-9.x-caf-sdm845" />
