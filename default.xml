@@ -13,6 +13,11 @@
            review="https://review.arrowos.net/"
            revision="refs/heads/arrow-10.0" />
 
+  <remote  name="arrow-pie"
+           fetch="https://github.com/ArrowOS"
+           review="https://review.arrowos.net/"
+           revision="refs/heads/arrow-9.x" />
+
   <remote  name="arrow-private"
            fetch="ssh://git@gitlab.com/ArrowOS"
            review="https://review.arrowos.net/"
