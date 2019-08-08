@@ -56,7 +56,7 @@
   <project path="hardware/ril" name="android_hardware_ril" groups="pdk" remote="arrow-pie" />
   <project path="hardware/ril-caf" name="android_hardware_ril" groups="qcom" remote="arrow" revision="arrow-9.x-caf" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom" remote="arrow-pie" />
-  <project path="hardware/qcom/bt-caf" name="android_hardware_qcom_bt" groups="qcom" remote="arrow" revision="arrow-9.x-caf" />
+  <project path="hardware/qcom/bt-caf" name="android_hardware_qcom_bt" groups="qcom" remote="arrow-private" revision="arrow-10.x-caf" />
   <project path="hardware/qcom/vr" name="android_hardware_qcom_vr" remote="arrow-pie" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan" remote="arrow-pie" />
   <project path="hardware/qcom/wlan-caf" name="android_hardware_qcom_wlan" groups="qcom_wlan" remote="arrow" revision="arrow-9.x-caf"/>
