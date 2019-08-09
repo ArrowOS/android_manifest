@@ -18,6 +18,7 @@
   </project>
 
   <!-- system repos -->
+  <project path="system/core" name="android_system_core" remote="arrow-private" />
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="arrow-private" />
 
   <!-- hardware repos -->
