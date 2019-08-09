@@ -71,4 +71,7 @@
 
   <!-- external repos -->
   <remove-project name="platform/external/f2fs-tools" />
+
+  <!-- systemc repos -->
+  <remove-project name="platform/system/core" />
 </manifest>
