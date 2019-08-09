@@ -68,4 +68,7 @@
   <remove-project name="platform/hardware/qcom/sdm845/media" />
   <remove-project name="platform/hardware/qcom/sdm845/thermal" />
   <remove-project name="platform/hardware/qcom/sdm845/vr" />
+
+  <!-- external repos -->
+  <remove-project name="platform/external/f2fs-tools" />
 </manifest>

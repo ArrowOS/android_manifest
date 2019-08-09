@@ -74,6 +74,9 @@
   <project path="hardware/qcom/sdm845/thermal" name="android_hardware_qcom_sdm845_thermal" groups="qcom_sdm845" remote="arrow-pie"/>
   <project path="hardware/qcom/sdm845/vr" name="android_hardware_qcom_sdm845_vr" groups="qcom_sdm845" remote="arrow-pie"/>
 
+  <!-- Arrow external repos -->
+  <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="arrow-private" />
+
   <!-- Qcom Vendor Repos -->
   <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" remote="arrow-pie" />
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="arrow-private">
