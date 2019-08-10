@@ -23,6 +23,7 @@
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="arrow-private" />
 
   <!-- hardware repos -->
+  <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="arrow-private" />
   <project path="hardware/qcom/audio/default" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="arrow-pie" />
   <project path="hardware/qcom/audio-caf/sdm845" name="android_hardware_qcom_audio" groups="pdk,qcom,qcom_audio" remote="arrow" revision="arrow-9.x-caf-sdm845" />
   <project path="hardware/qcom/audio-caf/sm8150" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="arrow" revision="arrow-9.x-caf-8150" />
