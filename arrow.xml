@@ -16,6 +16,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <project path="bionic" name="android_bionic" groups="pdk" remote="arrow-private" />
 
   <!-- system repos -->
   <project path="system/core" name="android_system_core" remote="arrow-private" />
