@@ -79,8 +79,9 @@
   <remove-project name="platform/external/f2fs-tools" />
   <remove-project name="platform/external/tinycompress" />
 
-  <!-- systemc repos -->
+  <!-- system repos -->
   <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/bt" />
 
   <!-- packages -->
   <remove-project name="platform/packages/apps/Settings" />
