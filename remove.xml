@@ -77,4 +77,7 @@
 
   <!-- systemc repos -->
   <remove-project name="platform/system/core" />
+
+  <!-- packages -->
+  <remove-project name="platform/packages/apps/Settings" />
 </manifest>
