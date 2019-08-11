@@ -49,7 +49,7 @@
   <project path="hardware/qcom/media-caf/sdm845" name="android_hardware_qcom_media" groups="qcom" remote="arrow" revision="arrow-9.x-caf-sdm845" />
   <project path="hardware/qcom/media-caf/sm8150" name="android_hardware_qcom_media" groups="qcom" remote="arrow" revision="arrow-9.x-caf-8150" />
   <project path="hardware/qcom/media-caf/msm8916" name="android_hardware_qcom_media" groups="qcom" remote="arrow" revision="arrow-9.x-caf-8916" />
-  <project path="hardware/qcom/media-caf/msm8952" name="android_hardware_qcom_media" groups="qcom" remote="arrow" revision="arrow-9.x-caf-8952" />
+  <project path="hardware/qcom/media-caf/msm8952" name="android_hardware_qcom_media" groups="qcom" remote="arrow-private" revision="arrow-9.x-caf-8952" />
   <project path="hardware/qcom/media-caf/msm8960" name="android_hardware_qcom_media" groups="qcom" remote="arrow" revision="arrow-9.x-caf-8960" />
   <project path="hardware/qcom/media-caf/msm8974" name="android_hardware_qcom_media" groups="qcom" remote="arrow" revision="arrow-9.x-caf-8974" />
   <project path="hardware/qcom/media-caf/msm8994" name="android_hardware_qcom_media" groups="qcom" remote="arrow" revision="arrow-9.x-caf-8994" />
