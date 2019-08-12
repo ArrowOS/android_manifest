@@ -26,6 +26,7 @@
   <project path="frameworks/base" name="android_frameworks_base" remote="arrow-private" />
   <project path="system/core" name="android_system_core" remote="arrow-private" />
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="arrow-private" />
+  <project path="system/qcom" name="android_system_qcom" remote="arrow-pie" />
 
   <!-- hardware repos -->
   <project path="hardware/arrow/interfaces" name="android_hardware_arrow_interfaces" groups="pdk" remote="arrow-private" />
