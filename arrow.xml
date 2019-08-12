@@ -22,6 +22,7 @@
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="arrow-private" />
 
   <!-- system repos -->
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="arrow-private" />
   <project path="system/core" name="android_system_core" remote="arrow-private" />
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="arrow-private" />
 
