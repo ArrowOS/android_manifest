@@ -23,6 +23,7 @@
 
   <!-- system repos -->
   <project path="bootable/recovery" name="android_bootable_recovery" remote="arrow-private" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="arrow-private" />
   <project path="frameworks/base" name="android_frameworks_base" remote="arrow-private" />
   <project path="system/core" name="android_system_core" remote="arrow-private" />
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="arrow-private" />
