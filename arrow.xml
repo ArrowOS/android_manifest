@@ -30,6 +30,7 @@
   <project path="system/qcom" name="android_system_qcom" remote="arrow-pie" />
 
   <!-- hardware repos -->
+  <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" remote="arrow-private" />
   <project path="hardware/arrow/interfaces" name="android_hardware_arrow_interfaces" groups="pdk" remote="arrow-private" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="arrow-private" />
   <project path="hardware/qcom/audio/default" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="arrow-pie" />
