@@ -37,7 +37,7 @@
   <project path="hardware/qcom/audio-caf/sdm845" name="android_hardware_qcom_audio" groups="pdk,qcom,qcom_audio" remote="arrow" revision="arrow-9.x-caf-sdm845" />
   <project path="hardware/qcom/audio-caf/sm8150" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="arrow" revision="arrow-9.x-caf-8150" />
   <project path="hardware/qcom/audio-caf/msm8916" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="arrow" revision="arrow-9.x-caf-8916" />
-  <project path="hardware/qcom/audio-caf/msm8952" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="arrow-private" revision="arrow-9.x-caf-8952" />
+  <project path="hardware/qcom/audio-caf/msm8952" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="arrow-private" revision="arrow-10.x-caf-8952" />
   <project path="hardware/qcom/audio-caf/msm8960" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="arrow" revision="arrow-9.x-caf-8960" />
   <project path="hardware/qcom/audio-caf/msm8974" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="arrow" revision="arrow-9.x-caf-8974" />
   <project path="hardware/qcom/audio-caf/msm8994" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="arrow" revision="arrow-9.x-caf-8994" />
