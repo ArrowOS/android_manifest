@@ -72,7 +72,7 @@
   <project path="hardware/qcom/bt-caf" name="android_hardware_qcom_bt" groups="qcom" remote="arrow-private" revision="arrow-10.x-caf" />
   <project path="hardware/qcom/thermal" name="android_hardware_qcom_thermal" remote="arrow-pie" />
   <project path="hardware/qcom/vr" name="android_hardware_qcom_vr" remote="arrow-pie" />
-  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan" remote="arrow-pie" />
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan" remote="arrow-private" />
   <project path="hardware/qcom/wlan-caf" name="android_hardware_qcom_wlan" groups="qcom_wlan" remote="arrow" revision="arrow-9.x-caf"/>
 
   <!-- Arrow sdm845 Repos -->
