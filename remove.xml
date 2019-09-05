@@ -82,6 +82,7 @@
   <!-- system repos -->
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/bt" />
+  <remove-project name="platform/system/sepolicy" />
 
   <!-- packages -->
   <remove-project name="platform/packages/apps/Settings" />
