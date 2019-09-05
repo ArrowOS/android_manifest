@@ -29,6 +29,7 @@
   <project path="system/core" name="android_system_core" remote="arrow-private" />
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="arrow-private" />
   <project path="system/qcom" name="android_system_qcom" remote="arrow-pie" />
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="arrow-private" />
 
   <!-- hardware repos -->
   <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" remote="arrow-private" />
