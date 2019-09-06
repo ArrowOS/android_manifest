@@ -89,5 +89,6 @@
   <remove-project name="platform/prebuilts/r8" />
 
   <!-- packages -->
+  <remove-project name="platform/packages/apps/Browser2" />
   <remove-project name="platform/packages/apps/Settings" />
 </manifest>
