@@ -90,6 +90,7 @@
 
   <!-- Arrow external repos -->
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="arrow" />
+  <project path="external/selinux" name="android_external_selinux" remote="arrow" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="arrow" />
 
   <!-- Arrow prebuilt repos -->
