@@ -98,6 +98,8 @@
 
   <!-- Arrow prebuilt repos -->
   <project path="prebuilts/r8" name="android_prebuilts_r8" remote="arrow" />
+  <project path="prebuilts/tools-extra" name="android_prebuilts_tools-extras" remote="arrow" />
+  <project path="prebuilts/openssl" name="android_prebuilts_openssl" remote="arrow" />
 
   <!-- Qcom Vendor Repos -->
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="arrow"/>
