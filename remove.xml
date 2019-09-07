@@ -84,6 +84,9 @@
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/sepolicy" />
 
+  <!-- prebuilt repos -->
+  <remove-project name="platform/prebuilts/r8" />
+
   <!-- packages -->
   <remove-project name="platform/packages/apps/Settings" />
 </manifest>

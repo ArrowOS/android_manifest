@@ -92,6 +92,9 @@
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="arrow" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="arrow" />
 
+  <!-- Arrow prebuilt repos -->
+  <project path="prebuilts/r8" name="android_prebuilts_r8" remote="arrow" />
+
   <!-- Qcom Vendor Repos -->
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="arrow"/>
   <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" remote="arrow" />
