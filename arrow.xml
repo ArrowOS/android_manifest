@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <project path="vendor/arrow" name="android_vendor_arrow" remote="arrow" />
   <project path="manifest" name="android_manifest" remote="arrow" />
   <project path="build/make" name="android_build" remote="arrow" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -12,30 +11,40 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
+  <project path="build/kati" name="android_build_kati" groups="pdk,tradefed" remote="arrow" />
   <project path="build/soong" name="android_build_soong" groups="pdk,tradefed" remote="arrow" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+
+  <!-- Arrow Core Repos -->
+  <project path="art" name="android_art" remote="arrow" />
   <project path="bionic" name="android_bionic" groups="pdk" remote="arrow" />
-
-  <!-- arrow packages -->
-  <project path="packages/apps/Chromium" name="android_packages_apps_Chromium" remote="arrow" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="arrow" />
-
-  <!-- system repos -->
   <project path="bootable/recovery" name="android_bootable_recovery" remote="arrow" />
   <project path="frameworks/av" name="android_frameworks_av" remote="arrow" />
   <project path="frameworks/base" name="android_frameworks_base" remote="arrow" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="arrow" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="arrow" />
+  <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="arrow" />
+  <project path="frameworks/opt/net/voip" name="android_frameworks_opt_net_voip" remote="arrow" />
+  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="arrow" />
   <project path="system/bt" name="android_system_bt" remote="arrow" />
   <project path="system/core" name="android_system_core" remote="arrow" />
-  <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="arrow" />
+  <project path="system/extras" name="android_system_extras" remote="arrow" />
   <project path="system/qcom" name="android_system_qcom" remote="arrow" />
+  <project path="system/security" name="android_system_security" remote="arrow" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="arrow" />
+  <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="arrow" />
+  <project path="system/vold" name="android_system_vold" groups="pdk" remote="arrow" />
+  <project path="system/update_engine" name="android_system_update_engine" groups="pdk" remote="arrow" />
+  <project path="vendor/arrow" name="android_vendor_arrow" remote="arrow" />
 
-  <!-- hardware repos -->
+  <!-- Arrow Packages Repos -->
+  <project path="packages/apps/Chromium" name="android_packages_apps_Chromium" remote="arrow" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="arrow" />
+
+  <!-- Arrow Hardware Repos -->
   <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" remote="arrow" />
-  <project path="hardware/arrow/interfaces" name="android_hardware_arrow_interfaces" groups="pdk" remote="arrow" />
-  <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="arrow" />
   <project path="hardware/qcom/audio/default" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="arrow" />
   <project path="hardware/qcom/audio-caf/sdm845" name="android_hardware_qcom_audio" groups="pdk,qcom,qcom_audio" remote="arrow" revision="arrow-10.0-caf-sdm845" />
   <project path="hardware/qcom/audio-caf/sm8150" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="arrow" revision="arrow-10.0-caf-8150" />
@@ -66,6 +75,12 @@
   <project path="hardware/qcom/media-caf/msm8994" name="android_hardware_qcom_media" groups="qcom" remote="arrow" revision="arrow-10.0-caf-8994" />
   <project path="hardware/qcom/media-caf/msm8996" name="android_hardware_qcom_media" groups="qcom" remote="arrow" revision="arrow-10.0-caf-8996" />
   <project path="hardware/qcom/media-caf/msm8998" name="android_hardware_qcom_media" groups="qcom" remote="arrow" revision="arrow-10.0-caf-8998" />
+  <project path="hardware/qcom/fm" name="android_hardware_qcom_fm" groups="qcom" remote="arrow" />
+  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="arrow" />
+  <project path="hardware/arrow/interfaces" name="android_hardware_arrow_interfaces" remote="arrow" />
+<!--  <project path="hardware/arrow/telephony" name="android_hardware_arrow_telephony" remote="arrow" />-->
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="arrow" />
+  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="arrow" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" groups="qcom,qcom_gps" remote="arrow" />
   <project path="hardware/qcom/power" name="android_hardware_qcom_power" groups="qcom,pdk" remote="arrow" />
   <project path="hardware/ril" name="android_hardware_ril" groups="pdk" remote="arrow" />
@@ -76,6 +91,7 @@
   <project path="hardware/qcom/vr" name="android_hardware_qcom_vr" remote="arrow" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan" remote="arrow" />
   <project path="hardware/qcom/wlan-caf" name="android_hardware_qcom_wlan" groups="qcom_wlan" remote="arrow" revision="arrow-10.0-caf"/>
+  <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" groups="qcom_camera" remote="arrow" />
 
   <!-- Arrow sdm845 Repos -->
   <project path="hardware/qcom/sdm845/bt" name="android_hardware_qcom_sdm845_bt" groups="qcom_sdm845" remote="arrow" />
@@ -103,10 +119,11 @@
   <project path="prebuilts/openssl" name="android_prebuilts_openssl" remote="arrow" />
 
   <!-- Qcom Vendor Repos -->
-  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="arrow"/>
   <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" remote="arrow" />
+  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="arrow" />
+  <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="arrow" />
+  <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="arrow"/>
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="arrow">
     <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp"/>
   </project>
-  <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="arrow"/>
 </manifest>
