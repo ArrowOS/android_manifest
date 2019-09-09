@@ -16,6 +16,9 @@
   <remove-project name="device/generic/opengl-transport" />
   <remove-project name="device/google/atv" />
   <remove-project name="device/google/contexthub" />
+  <remove-project name="device/google/bonito" />
+  <remove-project name="device/google/bonito-kernel" />
+  <remove-project name="device/google/bonito-sepolicy" />
   <remove-project name="device/google/crosshatch" />
   <remove-project name="device/google/crosshatch-kernel" />
   <remove-project name="device/google/crosshatch-sepolicy" />
@@ -40,17 +43,26 @@
   <remove-project name="device/sample" />
   <remove-project name="device/ti/beagle-x15" />
   <remove-project name="device/ti/beagle-x15-kernel" />
+  <remove-project name="platform/art" />
   <remove-project name="platform/build" />
+  <remove-project name="platform/build/kati" />
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/bionic" />
   <remove-project name="platform/bootable/recovery" />
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/native" />
 
   <!-- hardware repos -->
-  <remove-project name="platform/hardware/qcom/bootctrl" />
+  <remove-project name="platform/frameworks/opt/telephony" />
+  <remove-project name="platform/frameworks/opt/net/wifi" />
+  <remove-project name="platform/frameworks/opt/net/ims" />
+  <remove-project name="platform/frameworks/opt/net/voip" />
+  <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/libhardware" />
+  <remove-project name="platform/hardware/libhardware_legacy" />
   <remove-project name="platform/hardware/qcom/audio" />
+  <remove-project name="platform/hardware/qcom/bootctrl" />
   <remove-project name="platform/hardware/qcom/msm8960" />
   <remove-project name="platform/hardware/qcom/msm8994" />
   <remove-project name="platform/hardware/qcom/msm8996" />
@@ -62,6 +74,7 @@
   <remove-project name="platform/hardware/qcom/bt" />
   <remove-project name="platform/hardware/qcom/display" />
   <remove-project name="platform/hardware/qcom/gps" />
+  <remove-project name="platform/hardware/qcom/camera" />
   <remove-project name="platform/hardware/qcom/data/ipacfg-mgr" />
   <remove-project name="platform/hardware/qcom/power" />
   <remove-project name="platform/hardware/qcom/media" />
@@ -81,9 +94,13 @@
   <remove-project name="platform/external/tinycompress" />
 
   <!-- system repos -->
-  <remove-project name="platform/system/core" />
   <remove-project name="platform/system/bt" />
+  <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/extras" />
+  <remove-project name="platform/system/security" />
   <remove-project name="platform/system/sepolicy" />
+  <remove-project name="platform/system/vold" />
+  <remove-project name="platform/system/update_engine" />
 
   <!-- prebuilt repos -->
   <remove-project name="platform/prebuilts/r8" />
