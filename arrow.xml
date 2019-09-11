@@ -43,6 +43,7 @@
   <project path="packages/apps/Chromium" name="android_packages_apps_Chromium" remote="arrow" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="arrow" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="arrow" />
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="arrow" />
 
   <!-- Arrow Hardware Repos -->
   <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" remote="arrow" />

@@ -109,5 +109,6 @@
   <remove-project name="platform/packages/apps/Browser2" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
+  <remove-project name="platform/packages/apps/Nfc" />
 
 </manifest>
