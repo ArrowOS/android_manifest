@@ -16,7 +16,7 @@ To initialize your local repository, use command:
 Then sync up:
 
 ```bash
-    repo sync  -f --force-sync --no-clone-bundle -jX
+    repo sync --force-sync --no-clone-bundle -jX
 ```
 Where X is the thread your CPU can handle.
 
