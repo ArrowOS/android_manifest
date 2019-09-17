@@ -86,7 +86,6 @@
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" groups="qcom,qcom_gps" remote="arrow" />
   <project path="hardware/qcom/power" name="android_hardware_qcom_power" groups="qcom,pdk" remote="arrow" />
   <project path="hardware/ril" name="android_hardware_ril" groups="pdk" remote="arrow" />
-  <project path="hardware/ril-caf" name="android_hardware_ril" groups="qcom" remote="arrow" revision="arrow-10.0-caf" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom" remote="arrow" />
   <project path="hardware/qcom/bt-caf" name="android_hardware_qcom_bt" groups="qcom" remote="arrow" revision="arrow-10.0-caf" />
   <project path="hardware/qcom/thermal" name="android_hardware_qcom_thermal" remote="arrow" />
