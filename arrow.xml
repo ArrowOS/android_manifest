@@ -31,10 +31,12 @@
   <project path="system/bt" name="android_system_bt" remote="arrow" />
   <project path="system/core" name="android_system_core" remote="arrow" />
   <project path="system/extras" name="android_system_extras" remote="arrow" />
+  <project path="system/netd" name="android_system_netd" groups="pdk" remote="arrow" />
   <project path="system/qcom" name="android_system_qcom" remote="arrow" />
   <project path="system/security" name="android_system_security" remote="arrow" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="arrow" />
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="arrow" />
+  <project path="system/tools/hidl" name="android_system_tools_hidl" remote="arrow" />
   <project path="system/vold" name="android_system_vold" groups="pdk" remote="arrow" />
   <project path="system/update_engine" name="android_system_update_engine" groups="pdk" remote="arrow" />
   <project path="vendor/arrow" name="android_vendor_arrow" remote="arrow" />
