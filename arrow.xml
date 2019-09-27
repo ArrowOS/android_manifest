@@ -21,6 +21,7 @@
   <project path="art" name="android_art" remote="arrow" />
   <project path="bionic" name="android_bionic" groups="pdk" remote="arrow" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="arrow" />
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="arrow" />
   <project path="frameworks/av" name="android_frameworks_av" remote="arrow" />
   <project path="frameworks/base" name="android_frameworks_base" remote="arrow" />
   <project path="frameworks/native" name="android_frameworks_native" remote="arrow" />
