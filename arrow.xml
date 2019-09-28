@@ -128,6 +128,7 @@
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="arrow" />
   <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="arrow" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="arrow" />
+  <project path="external/json-c" name="android_external_json-c" remote="arrow" />
   <project path="external/selinux" name="android_external_selinux" remote="arrow" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="arrow" />
 
