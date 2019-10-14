@@ -55,6 +55,7 @@
   <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="arrow" />
   <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="arrow" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="arrow" />
+  <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="arrow" />  
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="arrow" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="arrow" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="arrow" />
