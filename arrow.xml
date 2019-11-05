@@ -145,6 +145,7 @@
   <project path="prebuilts/r8" name="android_prebuilts_r8" remote="arrow" />
   <project path="prebuilts/tools-extras" name="android_prebuilts_tools-extras" remote="arrow" />
   <project path="prebuilts/openssl" name="android_prebuilts_openssl" remote="arrow" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="arrow" />
 
   <!-- Qcom Vendor Repos -->
   <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="arrow" />
