@@ -107,6 +107,7 @@
   <remove-project name="platform/system/netd" />
 
   <!-- prebuilt repos -->
+  <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
   <remove-project name="platform/prebuilts/r8" />
 
   <!-- packages -->
