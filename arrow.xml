@@ -142,6 +142,7 @@
   <project path="external/tinycompress" name="android_external_tinycompress" remote="arrow" />
 
   <!-- Arrow prebuilt repos -->
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="arrow" />
   <project path="prebuilts/r8" name="android_prebuilts_r8" remote="arrow" />
   <project path="prebuilts/tools-extras" name="android_prebuilts_tools-extras" remote="arrow" />
   <project path="prebuilts/openssl" name="android_prebuilts_openssl" remote="arrow" />

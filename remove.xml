@@ -108,6 +108,7 @@
 
   <!-- prebuilt repos -->
   <remove-project name="platform/prebuilts/r8" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
 
   <!-- packages -->
   <remove-project name="platform/packages/apps/Browser2" />
