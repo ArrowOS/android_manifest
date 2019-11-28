@@ -183,4 +183,10 @@
     <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp"/>
   </project>
   <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="arrow"/>
+ 
+  <!-- Lineage OS Repos -->
+  <project path="packages/apps/Email" name="android_packages_apps_Email" remote="los" />
+  <project path="packages/apps/UnifiedEmail" name="android_packages_apps_UnifiedEmail" remote="los" />
+  <project path="packages/apps/Exchange" name="android_packages_apps_Exchange" remote="los" />
+
 </manifest>
