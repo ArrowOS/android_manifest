@@ -18,6 +18,11 @@
 	   review="https://review.arrowos.net/"
            revision="refs/heads/arrow-10.0" />
 
+  <remote  name="los"
+	   fetch="https://github.com/lineageos"
+           review="https://review.lineageos.org/"
+           revision="refs/heads/lineage-17.0" />
+
   <default revision="refs/tags/android-10.0.0_r11"
            remote="aosp"
            sync-j="4"
