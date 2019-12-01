@@ -134,6 +134,5 @@
   <remove-project name="platform/packages/apps/ThemePicker" />
   <remove-project name="platform/packages/apps/WallpaperPicker2" />
   <remove-project name="platform/packages/apps/UnifiedEmail" />
-  <remove-project name="platform/packages/apps/Exchange" />
   <remove-project name="platform/packages/apps/Email" />
 </manifest>
