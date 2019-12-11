@@ -12,7 +12,6 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
   <project path="build/blueprint" name="android_build_blueprint" groups="pdk,tradefed" remote="arrow" />
-  <project path="build/kati" name="android_build_kati" groups="pdk,tradefed" remote="arrow" />
   <project path="build/soong" name="android_build_soong" groups="pdk,tradefed" remote="arrow" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
@@ -28,26 +27,19 @@
   <project path="frameworks/base" name="android_frameworks_base" remote="arrow" />
   <project path="frameworks/native" name="android_frameworks_native" remote="arrow" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="arrow" />
-  <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="arrow" />
-  <project path="frameworks/opt/net/voip" name="android_frameworks_opt_net_voip" remote="arrow" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="arrow" />
   <project path="system/bt" name="android_system_bt" remote="arrow" />
   <project path="system/core" name="android_system_core" remote="arrow" />
-  <project path="system/extras" name="android_system_extras" remote="arrow" />
   <project path="system/netd" name="android_system_netd" groups="pdk" remote="arrow" />
   <project path="system/qcom" name="android_system_qcom" remote="arrow" />
-  <project path="system/security" name="android_system_security" remote="arrow" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="arrow" />
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="arrow" />
-  <project path="system/tools/hidl" name="android_system_tools_hidl" remote="arrow" />
   <project path="system/vold" name="android_system_vold" groups="pdk" remote="arrow" />
   <project path="system/update_engine" name="android_system_update_engine" groups="pdk" remote="arrow" />
   <project path="vendor/arrow" name="android_vendor_arrow" remote="arrow" />
 
   <!-- Arrow Packages Repos -->
-  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="arrow" />
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="arrow" />
-  <project path="packages/apps/CarrierConfig" name="android_packages_apps_CarrierConfig" remote="arrow" />
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="arrow" />
   <project path="packages/apps/DuckDuckGo" name="android_packages_apps_DuckDuckGo" remote="arrow" clone-depth="1" />
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="arrow" />
@@ -70,10 +62,10 @@
   <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="arrow" />
   <project path="packages/services/OmniJaws" name="android_packages_services_OmniJaws" remote="arrow" />
   <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="arrow" />
-  <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="arrow" />
   <project path="packages/apps/Email" name="android_packages_apps_Email" remote="arrow" />
   <project path="packages/apps/UnifiedEmail" name="android_packages_apps_UnifiedEmail" remote="arrow" />
   <project path="packages/apps/Exchange" name="android_packages_apps_Exchange" remote="arrow" />
+  <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="arrow" />
 
   <!-- Arrow Hardware Repos -->
   <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" remote="arrow" />
@@ -143,7 +135,6 @@
   <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="arrow" />
   <project path="external/connectivity" name="android_external_connectivity" remote="arrow" />
   <project path="external/exfat" name="android_external_exfat" remote="arrow" />
-  <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="arrow" />
   <project path="external/json-c" name="android_external_json-c" remote="arrow" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="arrow" />
   <project path="external/selinux" name="android_external_selinux" remote="arrow" />
