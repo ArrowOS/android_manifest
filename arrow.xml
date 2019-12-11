@@ -143,7 +143,6 @@
   <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="arrow" />
   <project path="external/connectivity" name="android_external_connectivity" remote="arrow" />
   <project path="external/exfat" name="android_external_exfat" remote="arrow" />
-  <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="arrow" />
   <project path="external/json-c" name="android_external_json-c" remote="arrow" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="arrow" />
   <project path="external/selinux" name="android_external_selinux" remote="arrow" />
