@@ -46,7 +46,6 @@
   <remove-project name="platform/art" />
   <remove-project name="platform/build" />
   <remove-project name="platform/build/blueprint" />
-  <remove-project name="platform/build/kati" />
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/bionic" />
   <remove-project name="platform/bootable/recovery" />
@@ -57,8 +56,6 @@
   <!-- hardware repos -->
   <remove-project name="platform/frameworks/opt/telephony" />
   <remove-project name="platform/frameworks/opt/net/wifi" />
-  <remove-project name="platform/frameworks/opt/net/ims" />
-  <remove-project name="platform/frameworks/opt/net/voip" />
   <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/libhardware_legacy" />
@@ -91,19 +88,15 @@
   <remove-project name="platform/hardware/qcom/sdm845/vr" />
 
   <!-- external repos -->
-  <remove-project name="platform/external/f2fs-tools" />
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/tinycompress" />
 
   <!-- system repos -->
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
-  <remove-project name="platform/system/extras" />
-  <remove-project name="platform/system/security" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/vold" />
   <remove-project name="platform/system/update_engine" />
-  <remove-project name="platform/system/tools/hidl" />
   <remove-project name="platform/system/netd" />
 
   <!-- prebuilt repos -->
@@ -112,8 +105,6 @@
 
   <!-- packages -->
   <remove-project name="platform/packages/apps/Browser2" />
-  <remove-project name="platform/packages/apps/Bluetooth" />
-  <remove-project name="platform/packages/apps/CarrierConfig" />
   <remove-project name="platform/packages/apps/Contacts" />
   <remove-project name="platform/packages/apps/DeskClock" />
   <remove-project name="platform/packages/apps/Dialer" />
@@ -132,7 +123,6 @@
   <remove-project name="platform/packages/services/Telephony" />
   <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/packages/apps/ThemePicker" />
-  <remove-project name="platform/packages/apps/WallpaperPicker2" />
   <remove-project name="platform/packages/apps/UnifiedEmail" />
   <remove-project name="platform/packages/apps/Email" />
 </manifest>
