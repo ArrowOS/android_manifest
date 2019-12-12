@@ -98,7 +98,7 @@
   <project path="hardware/qcom/media-caf/msm8996" name="android_hardware_qcom_media" groups="qcom" remote="arrow" revision="arrow-10.0-caf-8996" />
   <project path="hardware/qcom/media-caf/msm8998" name="android_hardware_qcom_media" groups="qcom" remote="arrow" revision="arrow-10.0-caf-8998" />
   <project path="hardware/qcom/fm" name="android_hardware_qcom_fm" groups="qcom" remote="arrow" />
-  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="arrow" revision="arrow-10.0" />
+  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="arrow" />
   <project path="hardware/arrow/interfaces" name="android_hardware_arrow_interfaces" remote="arrow" />
 <!--  <project path="hardware/arrow/telephony" name="android_hardware_arrow_telephony" remote="arrow" />-->
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="arrow" />
