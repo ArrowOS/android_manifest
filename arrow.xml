@@ -36,6 +36,7 @@
   <project path="system/extras" name="android_system_extras" remote="arrow" />
   <project path="system/netd" name="android_system_netd" groups="pdk" remote="arrow" />
   <project path="system/qcom" name="android_system_qcom" remote="arrow" />
+  <project path="system/keymaster" name="android_system_keymaster" remote="arrow" />
   <project path="system/security" name="android_system_security" remote="arrow" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="arrow" />
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="arrow" />
