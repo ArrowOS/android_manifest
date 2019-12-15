@@ -16,6 +16,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <project path="platform_testing" name="android_platform_testing" remote="arrow" />
 
   <!-- Arrow Core Repos -->
   <project path="art" name="android_art" remote="arrow" />
