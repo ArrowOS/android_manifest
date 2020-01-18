@@ -32,6 +32,7 @@
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="arrow" />
   <project path="system/bt" name="android_system_bt" remote="arrow" />
   <project path="system/core" name="android_system_core" remote="arrow" />
+  <project path="system/hardware/interfaces" name="android_system_hardware_interfaces" remote="arrow" />
   <project path="system/netd" name="android_system_netd" groups="pdk" remote="arrow" />
   <project path="system/qcom" name="android_system_qcom" remote="arrow" />
   <project path="system/keymaster" name="android_system_keymaster" remote="arrow" />
