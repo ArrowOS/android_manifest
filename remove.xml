@@ -48,6 +48,7 @@
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/elfutils" />
   <remove-project name="platform/external/f2fs-tools" />
+  <remove-project name="platform/external/ImageMagick" />
   <remove-project name="platform/external/libcups" />
   <remove-project name="platform/external/libhevc" />
   <remove-project name="platform/external/mksh" />
@@ -57,9 +58,15 @@
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/toybox" />
   <remove-project name="platform/external/zlib" />
+  <remove-project name="platform/external/sqlite" />
   <remove-project name="platform/external/skia" />
   <remove-project name="platform/external/skqp" />
   <remove-project name="platform/external/vixl" />
+  <remove-project name="platform/external/v8" />
+  <remove-project name="platform/external/libjpeg-turbo" />
+  <remove-project name="platform/external/libcxx" />
+  <remove-project name="platform/external/chromium-libpac" />
+  <remove-project name="platform/external/libavc" />
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/compile/mclinker" />
   <remove-project name="platform/frameworks/base" />
@@ -124,8 +131,10 @@
   <remove-project name="platform/packages/inputmethods/LatinIME" />
   <remove-project name="platform/packages/providers/MediaProvider" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
+  <remove-project name="platform/packages/providers/TelephonyProvider" />
   <remove-project name="platform/packages/services/Telephony" />
   <remove-project name="platform/packages/services/Telecomm" />
+  <remove-project name="platform/packages/services/BuiltInPrintService" />
   <remove-project name="platform/prebuilts/build-tools" />
   <remove-project name="platform/prebuilts/clang/host/linux-x86" />
   <remove-project name="platform/prebuilts/abi-dumps/vndk" />
