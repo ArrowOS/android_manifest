@@ -98,6 +98,7 @@
 
   <!-- system repos -->
   <remove-project name="platform/system/bt" />
+  <remove-project name="platform/system/bpf" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/hardware/interfaces" />
   <remove-project name="platform/system/keymaster" />
