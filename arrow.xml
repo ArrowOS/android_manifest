@@ -102,7 +102,6 @@
   <project path="hardware/qcom/media-caf/msm8994" name="android_hardware_qcom_media" groups="qcom" remote="arrow" revision="arrow-10.0-caf-8994" />
   <project path="hardware/qcom/media-caf/msm8996" name="android_hardware_qcom_media" groups="qcom" remote="arrow" revision="arrow-10.0-caf-8996" />
   <project path="hardware/qcom/media-caf/msm8998" name="android_hardware_qcom_media" groups="qcom" remote="arrow" revision="arrow-10.0-caf-8998" />
-  <project path="hardware/qcom/fm" name="android_hardware_qcom_fm" groups="qcom" remote="arrow" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="arrow" />
   <project path="hardware/arrow/interfaces" name="android_hardware_arrow_interfaces" remote="arrow" />
 <!--  <project path="hardware/arrow/telephony" name="android_hardware_arrow_telephony" remote="arrow" />-->
@@ -175,6 +174,8 @@
 
   <!-- Qcom Vendor Repos -->
   <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="arrow" />
+  <project path="vendor/qcom/opensource/fm-commonsys" name="android_vendor_qcom_opensource_fm-commonsys" remote="arrow" />
+  <project path="vendor/qcom/opensource/libfmjni" name="android_vendor_qcom_opensource_libfmjni" remote="arrow" />
   <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" remote="arrow" />
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="arrow" />
   <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="arrow" />
