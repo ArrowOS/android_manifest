@@ -139,6 +139,7 @@
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="arrow" />
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="arrow" />
   <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="arrow" />
+  <project path="external/chromium-webview" name="android_external_chromium-webview" remote="arrow" revision="master" clone-depth="1" />
   <project path="external/connectivity" name="android_external_connectivity" remote="arrow" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="arrow" />
   <project path="external/guice" name="android_external_guice" remote="arrow" />
