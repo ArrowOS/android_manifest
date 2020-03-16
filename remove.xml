@@ -93,6 +93,7 @@
   <remove-project name="platform/hardware/qcom/sdm845/vr" />
 
   <!-- external repos -->
+  <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/tinycompress" />
 
