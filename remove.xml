@@ -15,7 +15,6 @@
   <remove-project name="device/generic/uml" />
   <remove-project name="device/generic/opengl-transport" />
   <remove-project name="device/google/atv" />
-  <remove-project name="device/google/contexthub" />
   <remove-project name="device/google/bonito" />
   <remove-project name="device/google/bonito-kernel" />
   <remove-project name="device/google/bonito-sepolicy" />
