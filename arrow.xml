@@ -188,4 +188,8 @@
     <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp"/>
   </project>
   <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="arrow"/>
+  <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="android_vendor_qcom_opensource_bluetooth-commonsys-intf" remote="arrow" />
+  <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="android_vendor_qcom_opensource_bluetooth_ext" remote="arrow"/>
+  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="android_vendor_qcom_opensource_packages_apps_Bluetooth" remote="arrow" />
+  <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_system_bt" remote="arrow" />
 </manifest>
