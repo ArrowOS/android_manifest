@@ -121,7 +121,7 @@
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan" remote="arrow" />
   <project path="hardware/qcom/wlan-caf" name="android_hardware_qcom_wlan" groups="qcom_wlan" remote="arrow" revision="arrow-10.0-caf"/>
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" groups="qcom_camera" remote="arrow" />
-
+  <project path="hardware/sony/timekeep" name="android_hardware_sony_timekeep" groups="sony_timekeep" remote="arrow" />
   <!-- Arrow sdm845 Repos -->
   <project path="hardware/qcom/sdm845/bt" name="android_hardware_qcom_sdm845_bt" groups="qcom_sdm845" remote="arrow" />
   <project path="hardware/qcom/sdm845/data/ipacfg-mgr" name="android_hardware_qcom_sdm845_data_ipacfg-mgr" groups="vendor,qcom_sdm845" remote="arrow" >
