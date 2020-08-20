@@ -193,4 +193,7 @@
   <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="android_vendor_qcom_opensource_bluetooth_ext" remote="arrow"/>
   <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="android_vendor_qcom_opensource_packages_apps_Bluetooth" remote="arrow" />
   <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_system_bt" remote="arrow" />
+
+  <!-- Arrow Infrastructure Repos -->
+  <project path="infrastructure/devices" name="arrow_infrastructure_devices" remote="arrow" />
 </manifest>
