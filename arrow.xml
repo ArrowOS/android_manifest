@@ -15,6 +15,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <project path="tools/metalava" name="android_tools_metalava" remote="arrow" />
 
   <!-- Arrow Core Repos -->
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="arrow" />
