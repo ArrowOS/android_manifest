@@ -94,6 +94,7 @@
   <!-- external repos -->
   <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/selinux" />
+  <remove-project name="platform/external/sonivox" />
   <remove-project name="platform/external/tinycompress" />
 
   <!-- system repos -->
