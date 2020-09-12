@@ -83,7 +83,10 @@
   <project path="hardware/arrow/interfaces" name="android_hardware_arrow_interfaces" remote="arrow" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="arrow" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="arrow" />
+
+  <!-- Arrow external repos -->
   <project path="external/selinux" name="android_external_selinux" remote="arrow" />
+  <project path="external/tinycompress" name="android_external_tinycompress" remote="arrow" />
 
   <!-- Qcom Vendor Repos -->
   <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="arrow-10.0" />
