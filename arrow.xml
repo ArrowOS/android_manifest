@@ -17,6 +17,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="tools/metalava" name="android_tools_metalava" remote="arrow" />
+  <project path="system/libufdt" name="android_system_libufdt" remote="arrow" />
 
   <!-- Arrow Core Repos -->
   <project path="art" name="android_art" remote="arrow" />
