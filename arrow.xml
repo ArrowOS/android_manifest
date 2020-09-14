@@ -2,7 +2,7 @@
 <manifest>
 
   <project path="manifest" name="android_manifest" remote="arrow" />
-  <project path="build/make" name="android_build" remote="arrow" >
+  <project path="build/make" name="private_build" remote="arrow-os" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -11,12 +11,12 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/blueprint" name="android_build_blueprint" groups="pdk,tradefed" remote="arrow" />
-  <project path="build/soong" name="android_build_soong" groups="pdk,tradefed" remote="arrow" >
+  <project path="build/blueprint" name="private_build_blueprint" groups="pdk,tradefed" remote="arrow-os" />
+  <project path="build/soong" name="private_build_soong" groups="pdk,tradefed" remote="arrow-os" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="tools/metalava" name="android_tools_metalava" remote="arrow" />
+  <project path="tools/metalava" name="private_tools_metalava" remote="arrow-os" />
 
   <!-- Arrow Core Repos -->
   <project path="art" name="android_art" remote="arrow" />
@@ -27,7 +27,7 @@
   <project path="frameworks/native" name="android_frameworks_native" remote="arrow" />
   <project path="system/bt" name="android_system_bt" remote="arrow" />
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="arrow" />
-  <project path="vendor/arrow" name="android_vendor_arrow" remote="arrow" />
+  <project path="vendor/arrow" name="private_vendor_arrow" remote="arrow-os" />
   <project path="system/qcom" name="android_system_qcom" remote="arrow" />
   <project path="system/core" name="android_system_core" remote="arrow" />
   <project path="system/libufdt" name="android_system_libufdt" remote="arrow" />
@@ -102,7 +102,7 @@
   <project path="hardware/ril" name="android_hardware_ril" groups="pdk" remote="arrow" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom" remote="arrow" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="arrow" />
-  <project path="hardware/arrow/interfaces" name="android_hardware_arrow_interfaces" remote="arrow" />
+  <project path="hardware/arrow/interfaces" name="private_hardware_arrow_interfaces" remote="arrow-os" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="arrow" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="arrow" />
 
