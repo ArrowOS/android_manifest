@@ -109,6 +109,7 @@
   <!-- Arrow external repos -->
   <project path="external/selinux" name="android_external_selinux" remote="arrow" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="arrow" />
+  <project path="external/json-c" name="android_external_json-c" remote="arrow" />
 
   <!-- Qcom Vendor Repos -->
   <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="arrow" />
