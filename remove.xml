@@ -80,6 +80,7 @@
 
   <!-- prebuilts -->
   <remove-project name="platform/prebuilts/abi-dumps/vndk" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" />
 
   <!-- hardware -->
   <remove-project name="platform/hardware/libhardware" />
