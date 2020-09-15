@@ -125,6 +125,7 @@
   <project path="prebuilts/tools-extras" name="android_prebuilts_tools-extras" remote="arrow" />
   <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" clone-depth="1" remote="arrow" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="android_prebuilts_gcc_linux-x86_host_x86_64-linux-glibc2.17-4.8" clone-depth="1" remote="arrow" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_platform_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" clone-depth="1" remote="arrow" />
 
   <!-- Arrow Infrastructure Repos -->
   <project path="infrastructure/devices" name="arrow_infrastructure_devices" remote="arrow" />
