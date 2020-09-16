@@ -78,6 +78,9 @@
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/tinycompress" />
 
+  <!-- packages -->
+  <remove-project name="platform/packages/apps/Settings" />
+
   <!-- prebuilts -->
   <remove-project name="platform/prebuilts/abi-dumps/vndk" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" />
