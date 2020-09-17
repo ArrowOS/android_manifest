@@ -81,6 +81,7 @@
   <remove-project name="platform/external/libcxx" />
 
   <!-- packages -->
+  <remove-project name="platform/packages/apps/Dialer" />
   <remove-project name="platform/packages/apps/Settings" />
 
   <!-- prebuilts -->
