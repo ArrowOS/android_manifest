@@ -111,6 +111,7 @@
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="arrow" />
 
   <!-- external repos -->
+  <project path="external/guice" name="android_external_guice" remote="arrow" />
   <project path="external/selinux" name="android_external_selinux" remote="arrow" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="arrow" />
   <project path="external/json-c" name="android_external_json-c" remote="arrow" />
