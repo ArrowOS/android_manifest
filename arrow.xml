@@ -16,28 +16,23 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="tools/metalava" name="android_tools_metalava" remote="arrow" />
 
-  <!-- Arrow Core Repos -->
+  <project path="tools/metalava" name="android_tools_metalava" remote="arrow" />
   <project path="art" name="android_art" remote="arrow" />
   <project path="bionic" name="android_bionic" groups="pdk" remote="arrow" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="arrow" />
+
+  <!-- framework repos -->
   <project path="frameworks/av" name="android_frameworks_av" remote="arrow" />
   <project path="frameworks/base" name="android_frameworks_base" remote="arrow" />
   <project path="frameworks/native" name="android_frameworks_native" remote="arrow" />
-  <project path="system/bt" name="android_system_bt" remote="arrow" />
-  <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="arrow" />
-  <project path="vendor/arrow" name="android_vendor_arrow" remote="arrow" />
-  <project path="system/qcom" name="android_system_qcom" remote="arrow" />
-  <project path="system/core" name="android_system_core" remote="arrow" />
-  <project path="system/libufdt" name="android_system_libufdt" remote="arrow" />
 
-  <!-- Arrow Packages Repos -->
+  <!-- packages repos -->
   <project path="packages/apps/ArrowPrebuilts" name="android_packages_apps_ArrowPrebuilts" remote="arrow" clone-depth="1" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="arrow" />
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="arrow" />
 
-  <!-- Arrow Hardware Repos -->
+  <!-- hardware repos -->
   <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="arrow" >
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
@@ -107,12 +102,28 @@
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="arrow" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="arrow" />
 
-  <!-- Arrow external repos -->
+  <!-- external repos -->
   <project path="external/selinux" name="android_external_selinux" remote="arrow" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="arrow" />
   <project path="external/json-c" name="android_external_json-c" remote="arrow" />
 
-  <!-- Qcom Vendor Repos -->
+  <!-- prebuilt repos -->
+  <project path="prebuilts/tools-extras" name="android_prebuilts_tools-extras" remote="arrow" />
+  <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" clone-depth="1" remote="arrow" />
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="android_prebuilts_gcc_linux-x86_host_x86_64-linux-glibc2.17-4.8" clone-depth="1" remote="arrow" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_platform_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" clone-depth="1" remote="arrow" />
+
+  <!-- system repos -->
+  <project path="system/qcom" name="android_system_qcom" remote="arrow" />
+  <project path="system/core" name="android_system_core" remote="arrow" />
+  <project path="system/libufdt" name="android_system_libufdt" remote="arrow" />
+  <project path="system/bt" name="android_system_bt" remote="arrow" />
+  <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="arrow" />
+
+  <!-- infrastructure repos -->
+  <project path="infrastructure/devices" name="arrow_infrastructure_devices" remote="arrow" />
+
+  <!-- vendor repos -->
   <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="arrow" />
   <project path="vendor/qcom/opensource/fm-commonsys" name="android_vendor_qcom_opensource_fm-commonsys" remote="arrow" />
   <project path="vendor/qcom/opensource/libfmjni" name="android_vendor_qcom_opensource_libfmjni" remote="arrow" />
@@ -121,13 +132,6 @@
     <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp"/>
   </project>
   <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="arrow"/>
+  <project path="vendor/arrow" name="android_vendor_arrow" remote="arrow" />
 
-  <!-- Arrow prebuilt repos -->
-  <project path="prebuilts/tools-extras" name="android_prebuilts_tools-extras" remote="arrow" />
-  <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" clone-depth="1" remote="arrow" />
-  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="android_prebuilts_gcc_linux-x86_host_x86_64-linux-glibc2.17-4.8" clone-depth="1" remote="arrow" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_platform_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" clone-depth="1" remote="arrow" />
-
-  <!-- Arrow Infrastructure Repos -->
-  <project path="infrastructure/devices" name="arrow_infrastructure_devices" remote="arrow" />
 </manifest>
