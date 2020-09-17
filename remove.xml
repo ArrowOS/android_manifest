@@ -14,6 +14,7 @@
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/native" />
+  <remove-project name="platform/frameworks/opt/telephony" />
 
   <!-- device -->
   <remove-project name="device/amlogic/yukawa" />
@@ -75,6 +76,7 @@
   <remove-project name="device/ti/beagle-x15-kernel" />
 
   <!-- external -->
+  <remove-project name="platform/external/libcxx" />
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/tinycompress" />
 
@@ -119,5 +121,7 @@
   <!-- system -->
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/bt" />
+  <remove-project name="platform/system/extras" />
   <remove-project name="platform/system/libufdt" />
+  <remove-project name="platform/system/vold" />
 </manifest>

@@ -25,12 +25,15 @@
   <project path="frameworks/av" name="android_frameworks_av" remote="arrow" />
   <project path="frameworks/base" name="android_frameworks_base" remote="arrow" />
   <project path="frameworks/native" name="android_frameworks_native" remote="arrow" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="arrow" />
   <project path="system/bt" name="android_system_bt" remote="arrow" />
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="arrow" />
   <project path="vendor/arrow" name="android_vendor_arrow" remote="arrow" />
   <project path="system/qcom" name="android_system_qcom" remote="arrow" />
   <project path="system/core" name="android_system_core" remote="arrow" />
+  <project path="system/extras" name="android_system_extras" remote="arrow" />
   <project path="system/libufdt" name="android_system_libufdt" remote="arrow" />
+  <project path="system/vold" name="android_system_vold" remote="arrow" />
 
   <!-- Arrow Packages Repos -->
   <project path="packages/apps/ArrowPrebuilts" name="android_packages_apps_ArrowPrebuilts" remote="arrow" clone-depth="1" />
@@ -108,11 +111,13 @@
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="arrow" />
 
   <!-- Arrow external repos -->
+  <project path="external/libcxx" name="android_external_libcxx" remote="arrow" />
   <project path="external/selinux" name="android_external_selinux" remote="arrow" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="arrow" />
   <project path="external/json-c" name="android_external_json-c" remote="arrow" />
 
   <!-- Qcom Vendor Repos -->
+  <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="arrow" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="arrow" />
   <project path="vendor/qcom/opensource/fm-commonsys" name="android_vendor_qcom_opensource_fm-commonsys" remote="arrow" />
   <project path="vendor/qcom/opensource/libfmjni" name="android_vendor_qcom_opensource_libfmjni" remote="arrow" />
