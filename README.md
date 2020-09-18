@@ -16,21 +16,47 @@ repo init -u https://github.com/ArrowOS/android_manifest.git -b arrow-11.0
 Then sync up:
 
 ```bash
-repo sync --force-sync --no-clone-bundle -j$(nproc --all)
+repo sync
 ```
 
 Building the System
 -------------------
- Initialize the ROM environment with the envsetup.sh script. By using the following command
+ Initialize the ROM environment with the envsetup.sh script.
 
-     . build/envsetup.sh
-     brunch device-codename
+```bash
+. build/envsetup.sh
+```
 
- Refer to our detailed guide on how to compile ArrowOS, as well
- as how to apply for official maintainership [**HERE**](https://blog.arrowos.net/)
+Lunch your device after cloning all device sources if needed.
+
+```bash
+lunch arrow_device_codename-buildtype
+```
+
+Start compilation
+
+```bash
+m otapackage
+```
+
+OR
+
+```bash
+m bacon
+```	 
+
+**You can also refer to our detailed guides as listed below:**
+
+[How to compile ArrowOS from source](https://blog.arrowos.net/posts/compilation-guide)
+
+[How to submit patches to ArrowOS Gerrit](https://blog.arrowos.net/posts/gerrit-guide)
+
+[Apply for Maintainership](https://blog.arrowos.net/posts/apply-for-maintainership) OR [Submit device for community builds](https://blog.arrowos.net/posts/community-builds-stay-tuned)
+
+To check thread template refer [**HERE**](https://raw.githubusercontent.com/ArrowOS/documentation/master/thread_template.txt)
 
 ---------------------------------------------------------------------------------------------------------------------
 
-To check maintainer criteria & thread template refer [**HERE**](https://github.com/ArrowOS/documentation)
+[ArrowOS Website](https://www.arrowos.net/) | [ArrowOS Blog](https://blog.arrowos.net/)
 
 ---------------------------------------------------------------------------------------------------------------------
