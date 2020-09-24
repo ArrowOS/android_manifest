@@ -35,6 +35,7 @@ lunch arrow_devicecodename-buildtype
 
 Start compilation
 
+Using `m` command:
 ```bash
 m otapackage
 ```
@@ -43,7 +44,18 @@ OR
 
 ```bash
 m bacon
-```	 
+```
+
+Using `mka` command:
+```bash
+mka otapackage
+```
+
+OR
+
+```bash
+mka bacon
+```
 
 **You can also refer to our detailed guides as listed below:**
 
