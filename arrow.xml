@@ -165,5 +165,6 @@
   <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" remote="arrow" />
   <project path="vendor/qcom/opensource/usb" name="android_vendor_qcom_opensource_usb" remote="arrow" />
   <project path="vendor/arrow" name="android_vendor_arrow" remote="arrow" />
+  <project path="vendor/support" name="android_vendor_support" remote="arrow" />
 
 </manifest>
