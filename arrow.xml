@@ -45,6 +45,7 @@
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="arrow" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="arrow" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="arrow" />
+  <project path="packages/modules/NetworkStack" name="android_packages_modules_NetworkStack" remote="arrow" />
 
   <!-- hardware repos -->
   <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="arrow" >
