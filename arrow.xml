@@ -142,6 +142,8 @@
   <project path="external/json-c" name="android_external_json-c" remote="arrow" />
   <project path="external/libcxx" name="android_external_libcxx" remote="arrow" />
   <project path="external/perfetto" name="android_external_perfetto" remote="arrow" />
+  <project path="external/exfatprogs" name="android_external_exfatprogs" remote="arrow" />
+  <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="arrow" />
 
   <!-- prebuilt repos -->
   <project path="prebuilts/tools-extras" name="android_prebuilts_tools-extras" remote="arrow" />
