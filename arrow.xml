@@ -55,6 +55,7 @@
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="arrow" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="arrow" />
   <project path="packages/services/OmniJaws" name="android_packages_services_OmniJaws" remote="arrow" />
+  <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="arrow" />
   <project path="packages/modules/NetworkStack" name="android_packages_modules_NetworkStack" remote="arrow" />
 
   <!-- hardware repos -->
