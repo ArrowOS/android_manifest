@@ -93,6 +93,8 @@
 
   <!-- external repos -->
   <remove-project name="platform/external/chromium-webview" />
+  <remove-project name="platform/external/aac" />
+  <remove-project name="platform/external/libexif" />
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/sonivox" />
   <remove-project name="platform/external/tinycompress" />
@@ -103,6 +105,7 @@
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/hardware/interfaces" />
   <remove-project name="platform/system/keymaster" />
+  <remove-project name="platform/system/nfc" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/vold" />
   <remove-project name="platform/system/update_engine" />
@@ -115,6 +118,7 @@
   <!-- packages -->
   <remove-project name="platform/packages/apps/Browser2" />
   <remove-project name="platform/packages/apps/Bluetooth" />
+  <remove-project name="platform/packages/apps/CellBroadcastReceiver" />
   <remove-project name="platform/packages/apps/Contacts" />
   <remove-project name="platform/packages/apps/DeskClock" />
   <remove-project name="platform/packages/apps/Dialer" />
