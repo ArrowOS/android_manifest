@@ -94,6 +94,7 @@
   <!-- external repos -->
   <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/aac" />
+  <remove-project name="platform/external/freetype" />
   <remove-project name="platform/external/libexif" />
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/sonivox" />
