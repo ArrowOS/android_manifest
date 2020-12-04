@@ -164,6 +164,7 @@
   <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" remote="arrow" />
   <project path="system/extras" name="android_system_extras" remote="arrow" />
   <project path="system/incremental_delivery" name="android_system_incremental_delivery" remote="arrow" />
+  <project path="system/netd" name="android_system_netd" remote="arrow" />
   <project path="system/vold" name="android_system_vold" groups="pdk" remote="arrow" />
   <project path="system/update_engine" name="android_system_update_engine" groups="pdk" remote="arrow" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="arrow" />
