@@ -145,6 +145,7 @@
   <project path="external/tinycompress" name="android_external_tinycompress" remote="arrow" />
   <project path="external/json-c" name="android_external_json-c" remote="arrow" />
   <project path="external/libcxx" name="android_external_libcxx" remote="arrow" />
+  <project path="external/mksh" name="android_external_mksh" remote="arrow" />
   <project path="external/perfetto" name="android_external_perfetto" remote="arrow" />
   <project path="external/exfatprogs" name="android_external_exfatprogs" remote="arrow" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="arrow" />
