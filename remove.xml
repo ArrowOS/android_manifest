@@ -55,10 +55,6 @@
   <remove-project name="device/google/redfin-kernel" />
   <remove-project name="device/google/redfin-sepolicy" />
   <remove-project name="device/google/fuchsia" />
-  <remove-project name="device/google/muskie" />
-  <remove-project name="device/google/taimen" />
-  <remove-project name="device/google/wahoo" />
-  <remove-project name="device/google/wahoo-kernel" />
   <remove-project name="device/google/crosshatch" />
   <remove-project name="device/google/crosshatch-kernel" />
   <remove-project name="device/google/crosshatch-sepolicy" />
