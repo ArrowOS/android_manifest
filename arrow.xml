@@ -73,6 +73,7 @@
   <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="arrow" />
   <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="arrow" />
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="arrow" />
+  <project path="packages/apps/Car/Settings" name="android_packages_apps_Car_Settings" remote="arrow" />
 
   <!-- Arrow Hardware Repos -->
   <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" remote="arrow" />
@@ -150,6 +151,7 @@
   <project path="external/exfat" name="android_external_exfat" remote="arrow" />
   <project path="external/freetype" name="android_external_freetype" remote="arrow" />
   <project path="external/json-c" name="android_external_json-c" remote="arrow" />
+  <project path="external/libaom" name="android_external_libaom" remote="arrow" />
   <project path="external/libexif" name="android_external_libexif" remote="arrow" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="arrow" />
   <project path="external/selinux" name="android_external_selinux" remote="arrow" />
