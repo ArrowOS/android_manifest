@@ -107,6 +107,7 @@
   <remove-project name="platform/packages/services/Telephony" />
   <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/packages/modules/NetworkStack" />
+  <remove-project name="platform/packages/apps/PackageInstaller" />
 
   <!-- prebuilts -->
   <remove-project name="platform/prebuilts/abi-dumps/vndk" />
