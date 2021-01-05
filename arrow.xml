@@ -28,6 +28,7 @@
   <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="arrow" />
   <project path="frameworks/av" name="android_frameworks_av" remote="arrow" />
   <project path="frameworks/base" name="android_frameworks_base" remote="arrow" />
+  <project path="frameworks/minikin" name="android_frameworks_minikin" remote="arrow" />
   <project path="frameworks/native" name="android_frameworks_native" remote="arrow" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="arrow" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="arrow" />
@@ -39,6 +40,7 @@
   <project path="system/nfc" name="android_system_nfc" remote="arrow" />
   <project path="system/qcom" name="android_system_qcom" remote="arrow" />
   <project path="system/keymaster" name="android_system_keymaster" remote="arrow" />
+  <project path="system/security" name="android_system_security" remote="arrow" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="arrow" />
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="arrow" />
   <project path="system/vold" name="android_system_vold" groups="pdk" remote="arrow" />
@@ -150,6 +152,7 @@
   <project path="external/connectivity" name="android_external_connectivity" remote="arrow" />
   <project path="external/exfat" name="android_external_exfat" remote="arrow" />
   <project path="external/freetype" name="android_external_freetype" remote="arrow" />
+  <project path="external/gptfdisk" name="android_external_gptfdisk" remote="arrow" />
   <project path="external/json-c" name="android_external_json-c" remote="arrow" />
   <project path="external/libaom" name="android_external_libaom" remote="arrow" />
   <project path="external/libexif" name="android_external_libexif" remote="arrow" />

@@ -53,6 +53,7 @@
   <remove-project name="platform/bootable/recovery" />
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/minikin" />
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/platform_testing" />
 
@@ -97,6 +98,7 @@
   <remove-project name="platform/external/freetype" />
   <remove-project name="platform/external/libaom" />
   <remove-project name="platform/external/libexif" />
+  <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/sonivox" />
   <remove-project name="platform/external/tinycompress" />
@@ -108,6 +110,7 @@
   <remove-project name="platform/system/hardware/interfaces" />
   <remove-project name="platform/system/keymaster" />
   <remove-project name="platform/system/nfc" />
+  <remove-project name="platform/system/security" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/vold" />
   <remove-project name="platform/system/update_engine" />
