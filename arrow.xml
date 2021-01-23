@@ -213,5 +213,6 @@
   <project path="vendor/qcom/opensource/wfd-commonsys" name="android_vendor_qcom_opensource_wfd-commonsys" remote="arrow" />
   <project path="vendor/arrow" name="android_vendor_arrow" remote="arrow" />
   <project path="vendor/support" name="android_vendor_support" remote="arrow" />
+  <project path="vendor/gapps" name="android_vendor_gapps" remote="arrow-gitlab" clone-depth="1" />
 
 </manifest>
