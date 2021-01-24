@@ -177,6 +177,9 @@
   <project path="system/update_engine" name="android_system_update_engine" groups="pdk" remote="arrow" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="arrow" />
 
+  <!-- tools repos -->
+  <project path="tools/extract-utils" name="android_tools_extract-utils" remote="arrow" />
+
   <!-- infrastructure repos -->
   <project path="infrastructure/devices" name="arrow_infrastructure_devices" remote="arrow" />
 
