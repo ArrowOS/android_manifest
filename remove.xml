@@ -56,6 +56,7 @@
   <remove-project name="platform/frameworks/minikin" />
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/platform_testing" />
+  <remove-project name="platform/libcore" />
 
   <!-- hardware repos -->
   <remove-project name="platform/frameworks/opt/telephony" />
@@ -97,11 +98,14 @@
   <remove-project name="platform/external/aac" />
   <remove-project name="platform/external/freetype" />
   <remove-project name="platform/external/libaom" />
+  <remove-project name="platform/external/libavc" />
   <remove-project name="platform/external/libexif" />
   <remove-project name="platform/external/gptfdisk" />
+  <remove-project name="platform/external/okhttp" />
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/sonivox" />
   <remove-project name="platform/external/tinycompress" />
+  <remove-project name="platform/external/wpa_supplicant_8" />
 
   <!-- system repos -->
   <remove-project name="platform/system/bt" />
