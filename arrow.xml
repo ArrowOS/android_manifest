@@ -142,9 +142,11 @@
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="arrow" />
 
   <!-- external repos -->
+  <project path="external/ant-wireless/ant_client" name="android_external_ant-wireless_ant_client" remote="arrow" />
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="arrow" />
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="arrow" />
   <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="arrow" />
+  <project path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl" remote="arrow" />
   <project path="external/chromium-webview" name="android_external_chromium-webview" remote="arrow" revision="master" clone-depth="1" />
   <project path="external/connectivity" name="android_external_connectivity" remote="arrow" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="arrow" />
