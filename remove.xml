@@ -45,7 +45,6 @@
   <remove-project name="device/google/bonito-kernel" />
   <remove-project name="device/google/bonito-sepolicy" />
   <remove-project name="device/google/bramble" />
-  <remove-project name="device/google/bramble-kernel" />
   <remove-project name="device/google/bramble-sepolicy" />
   <remove-project name="device/google/coral" />
   <remove-project name="device/google/coral-kernel" />
