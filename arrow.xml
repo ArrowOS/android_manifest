@@ -64,6 +64,7 @@
   <project path="packages/modules/NetworkStack" name="android_packages_modules_NetworkStack" remote="arrow" />
   <project path="packages/apps/PermissionController" name="android_packages_apps_PackageInstaller" remote="arrow" />
   <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="arrow" />
+  <project path="packages/apps/FaceUnlockService" name="android_packages_apps_FaceUnlockService" remote="arrow-gitlab" />
 
   <!-- hardware repos -->
   <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="arrow" >
@@ -161,6 +162,7 @@
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="arrow" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="arrow" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="arrow" />
+  <project path="external/faceunlock" name="android_external_faceunlock" remote="arrow-gitlab" />
 
   <!-- prebuilt repos -->
   <project path="prebuilts/tools-extras" name="android_prebuilts_tools-extras" remote="arrow" />
