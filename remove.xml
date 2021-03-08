@@ -96,6 +96,7 @@
   <!-- external repos -->
   <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/aac" />
+  <remove-project name="platform/external/dnsmasq" />
   <remove-project name="platform/external/freetype" />
   <remove-project name="platform/external/libaom" />
   <remove-project name="platform/external/libavc" />
@@ -105,6 +106,7 @@
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/sonivox" />
   <remove-project name="platform/external/tinycompress" />
+  <remove-project name="platform/external/v8" />
   <remove-project name="platform/external/wpa_supplicant_8" />
 
   <!-- system repos -->
@@ -116,9 +118,11 @@
   <remove-project name="platform/system/nfc" />
   <remove-project name="platform/system/security" />
   <remove-project name="platform/system/sepolicy" />
+  <remove-project name="platform/system/tools/hidl" />
   <remove-project name="platform/system/vold" />
   <remove-project name="platform/system/update_engine" />
   <remove-project name="platform/system/netd" />
+  <remove-project name="platform/system/connectivity/wificond" />
 
   <!-- prebuilt repos -->
   <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
