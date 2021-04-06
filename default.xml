@@ -31,7 +31,7 @@
            review="https://review.arrowos.net/"
            revision="refs/heads/arrow-11.0" />
 
-  <default revision="refs/tags/android-11.0.0_r33"
+  <default revision="refs/tags/android-11.0.0_r35"
            remote="aosp"
            sync-j="4"
            sync-c="true"/>
