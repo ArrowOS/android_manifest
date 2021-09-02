@@ -195,6 +195,7 @@
   <project path="system/libufdt" name="android_system_libufdt" remote="arrow" />
   <project path="system/bt" name="android_system_bt" remote="arrow" />
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="arrow" />
+  <project path="system/tools/hidl" name="android_system_tools_hidl" remote="arrow" />
   <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" remote="arrow" />
   <project path="system/extras" name="android_system_extras" remote="arrow" />
   <project path="system/incremental_delivery" name="android_system_incremental_delivery" remote="arrow" />
