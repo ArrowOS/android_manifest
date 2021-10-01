@@ -182,6 +182,7 @@
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="arrow" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="arrow" />
   <project path="external/faceunlock" name="android_external_faceunlock" remote="arrow-gitlab" />
+  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="arrow" />
 
   <!-- prebuilt repos -->
   <project path="prebuilts/tools-extras" name="android_prebuilts_tools-extras" remote="arrow" />

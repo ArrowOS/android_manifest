@@ -92,6 +92,7 @@
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/perfetto" />
   <remove-project name="platform/external/e2fsprogs" />
+  <remove-project name="platform/external/wpa_supplicant_8" />
 
   <!-- packages -->
   <remove-project name="platform/packages/apps/Bluetooth" />
