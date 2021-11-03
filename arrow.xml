@@ -68,6 +68,7 @@
   <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="arrow" />
   <project path="packages/apps/FaceUnlockService" name="android_packages_apps_FaceUnlockService" remote="arrow-gitlab" />
   <project path="packages/apps/CarrierConfig" name="android_packages_apps_CarrierConfig" remote="arrow" />
+  <project path="packages/apps/ManagedProvisioning" name="android_packages_apps_ManagedProvisioning" remote="arrow" />
 
   <!-- hardware repos -->
   <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" groups="qcom,pdk-qcom" remote="arrow" revision="arrow-11.0-caf" />
@@ -160,6 +161,7 @@
   <project path="hardware/arrow/interfaces" name="android_hardware_arrow_interfaces" remote="arrow" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="arrow" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="arrow" />
+  <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="arrow" />
 
   <!-- external repos -->
   <project path="external/ant-wireless/ant_client" name="android_external_ant-wireless_ant_client" remote="arrow" />
@@ -183,6 +185,7 @@
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="arrow" />
   <project path="external/faceunlock" name="android_external_faceunlock" remote="arrow-gitlab" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="arrow" />
+  <project path="external/robolectric-shadows" name="android_external_robolectric-shadows" remote="arrow" />
 
   <!-- prebuilt repos -->
   <project path="prebuilts/tools-extras" name="android_prebuilts_tools-extras" remote="arrow" />

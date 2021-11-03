@@ -93,6 +93,7 @@
   <remove-project name="platform/external/perfetto" />
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/wpa_supplicant_8" />
+  <remove-project name="platform/external/robolectric-shadows" />
 
   <!-- packages -->
   <remove-project name="platform/packages/apps/Bluetooth" />
@@ -115,6 +116,7 @@
   <remove-project name="platform/packages/modules/NetworkStack" />
   <remove-project name="platform/packages/apps/PackageInstaller" />
   <remove-project name="platform/packages/apps/CarrierConfig" />
+  <remove-project name="platform/packages/apps/ManagedProvisioning" />
 
   <!-- prebuilts -->
   <remove-project name="platform/prebuilts/abi-dumps/vndk" />
@@ -149,6 +151,7 @@
   <remove-project name="platform/hardware/qcom/sdm845/thermal" />
   <remove-project name="platform/hardware/qcom/sdm845/vr" />
   <remove-project name="platform/hardware/interfaces" />
+  <remove-project name="platform/hardware/nxp/nfc" />
 
   <!-- system -->
   <remove-project name="platform/system/core" />
