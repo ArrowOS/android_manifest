@@ -4,10 +4,13 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
+
   <default revision="refs/tags/android-12.0.0_r13"
            remote="aosp"
            sync-j="4"
-           sync-c="true"/>
+           sync-c="true"
+           sync-d="true"
+           sync-f="true"/>
 
   <remote  name="github"
            fetch="https://github.com/" />
