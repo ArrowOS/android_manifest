@@ -70,6 +70,7 @@
   <project path="packages/apps/CarrierConfig" name="android_packages_apps_CarrierConfig" remote="arrow" />
   <project path="packages/apps/ManagedProvisioning" name="android_packages_apps_ManagedProvisioning" remote="arrow" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="arrow" />
+  <project path="packages/apps/KeyChain" name="android_packages_apps_KeyChain" remote="arrow" />
 
   <!-- hardware repos -->
   <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" groups="qcom,pdk-qcom" remote="arrow" revision="arrow-11.0-caf" />
@@ -187,6 +188,7 @@
   <project path="external/faceunlock" name="android_external_faceunlock" remote="arrow-gitlab" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="arrow" />
   <project path="external/robolectric-shadows" name="android_external_robolectric-shadows" remote="arrow" />
+  <project path="external/tremolo" name="android_external_tremolo" remote="arrow" />
 
   <!-- prebuilt repos -->
   <project path="prebuilts/tools-extras" name="android_prebuilts_tools-extras" remote="arrow" />
@@ -210,6 +212,7 @@
   <project path="system/sepolicy" name="android_system_sepolicy" remote="arrow" />
   <project path="system/media" name="android_system_media" remote="arrow" />
   <project path="system/nfc" name="android_system_nfc" remote="arrow" />
+  <project path="system/tools/aidl" name="android_system_tools_aidl" remote="arrow" />
 
   <!-- tools repos -->
   <project path="tools/extract-utils" name="android_tools_extract-utils" remote="arrow" />

@@ -94,6 +94,7 @@
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/wpa_supplicant_8" />
   <remove-project name="platform/external/robolectric-shadows" />
+  <remove-project name="platform/external/tremolo" />
 
   <!-- packages -->
   <remove-project name="platform/packages/apps/Bluetooth" />
@@ -118,6 +119,7 @@
   <remove-project name="platform/packages/apps/CarrierConfig" />
   <remove-project name="platform/packages/apps/ManagedProvisioning" />
   <remove-project name="platform/packages/providers/MediaProvider" />
+  <remove-project name="platform/packages/apps/KeyChain" />
 
   <!-- prebuilts -->
   <remove-project name="platform/prebuilts/abi-dumps/vndk" />
@@ -168,4 +170,5 @@
   <remove-project name="platform/system/update_engine" />
   <remove-project name="platform/system/media" />
   <remove-project name="platform/system/nfc" />
+  <remove-project name="platform/system/tools/aidl" />
 </manifest>
