@@ -86,6 +86,8 @@
   <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/guice" />
+  <remove-project name="platform/external/libavc" />
+  <remove-project name="platform/external/libexif" />
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/libcxx" />
