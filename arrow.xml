@@ -37,6 +37,7 @@
   <project path="external/exfatprogs" name="android_external_exfatprogs" remote="arrow" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="arrow" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="arrow" />
+  <project path="external/jemalloc_new" name="android_external_jemalloc_new" remote="arrow" />
   <project path="external/mksh" name="android_external_mksh" remote="arrow" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="arrow" />
   <project path="external/json-c" name="android_external_json-c" remote="arrow" />
