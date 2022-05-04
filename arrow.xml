@@ -139,6 +139,7 @@
   <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="arrow" />
   <project path="packages/modules/Permission" name="android_packages_modules_Permission" remote="arrow" />
   <project path="packages/modules/Wifi" name="android_packages_modules_Wifi" remote="arrow" />
+  <project path="packages/overlays/arrow" name="android_packages_overlays_arrow" remote="arrow" />
   <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="arrow" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="arrow" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="arrow" />
