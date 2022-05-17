@@ -33,6 +33,23 @@
       "message": "Works fine in my RMX2020",
       "revId": "1d5d039811998545d8da0f6424640a9dfad6d9be",
       "serverId": "66da7299-18b4-411a-8fa2-12a880778196"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9c713996_e2efa0c9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 71
+      },
+      "writtenOn": "2022-05-17T19:21:06Z",
+      "side": 1,
+      "message": "Hold, not ready yet.",
+      "revId": "1d5d039811998545d8da0f6424640a9dfad6d9be",
+      "serverId": "66da7299-18b4-411a-8fa2-12a880778196"
     }
   ]
 }
