@@ -16,6 +16,23 @@
       "message": "Fork: https://github.com/chaldeaprjkt/packages_apps_GameSpace",
       "revId": "1d5d039811998545d8da0f6424640a9dfad6d9be",
       "serverId": "66da7299-18b4-411a-8fa2-12a880778196"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "72eeebc4_a18c68ab",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 353
+      },
+      "writtenOn": "2022-05-17T16:16:22Z",
+      "side": 1,
+      "message": "Works fine in my RMX2020",
+      "revId": "1d5d039811998545d8da0f6424640a9dfad6d9be",
+      "serverId": "66da7299-18b4-411a-8fa2-12a880778196"
     }
   ]
 }
