@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7728f9a2_b0f3e4de",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 508
+      },
+      "writtenOn": "2022-06-03T07:42:24Z",
+      "side": 1,
+      "message": "Link to system/extras repo: https://github.com/cyberknight777/android_system_extras.git",
+      "revId": "71031d30daebe1974b4171901a6adc0e04ab13f6",
+      "serverId": "66da7299-18b4-411a-8fa2-12a880778196"
+    }
+  ]
+}
