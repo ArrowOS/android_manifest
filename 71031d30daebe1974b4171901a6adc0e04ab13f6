@@ -16,6 +16,23 @@
       "message": "Link to system/extras repo: https://github.com/cyberknight777/android_system_extras.git",
       "revId": "71031d30daebe1974b4171901a6adc0e04ab13f6",
       "serverId": "66da7299-18b4-411a-8fa2-12a880778196"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8d997df6_4540f090",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 71
+      },
+      "writtenOn": "2022-06-05T11:07:57Z",
+      "side": 1,
+      "message": "Completely wrong. repo\u0027s tracking from our org should be in arrow.xml. Follow the structure of other commits.",
+      "revId": "71031d30daebe1974b4171901a6adc0e04ab13f6",
+      "serverId": "66da7299-18b4-411a-8fa2-12a880778196"
     }
   ]
 }
