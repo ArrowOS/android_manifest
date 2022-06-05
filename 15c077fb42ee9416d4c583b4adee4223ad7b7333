@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3e8dc47a_2c8b47d1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 71
+      },
+      "writtenOn": "2022-06-05T11:08:32Z",
+      "side": 1,
+      "message": "Completely wrong. Repo\u0027s tracking from aosp git should be in default.xml.",
+      "revId": "15c077fb42ee9416d4c583b4adee4223ad7b7333",
+      "serverId": "66da7299-18b4-411a-8fa2-12a880778196"
+    }
+  ]
+}
