@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d732998d_148c4fc3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 508
+      },
+      "writtenOn": "2022-06-13T11:47:11Z",
+      "side": 1,
+      "message": "Hi @palaych, I uploaded a revised patch last week. Any thoughts on it? ",
+      "revId": "f032a8f37d98bffab7e8d2fb05182e9f077de1f5",
+      "serverId": "66da7299-18b4-411a-8fa2-12a880778196"
+    }
+  ]
+}
