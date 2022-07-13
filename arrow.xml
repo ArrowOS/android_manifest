@@ -181,6 +181,9 @@
   <project path="vendor/arrow" name="android_vendor_arrow" remote="arrow" />
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="arrow" />
   <project path="vendor/gapps" name="android_vendor_gapps" remote="arrow-gitlab" clone-depth="1" />
+  <project path="vendor/nxp/nfc" name="android_vendor_nxp_nfc" remote="arrow" />
+  <project path="vendor/nxp/secure_element" name="android_vendor_nxp_secure_element" remote="arrow" />
+  <project path="vendor/nxp/secure_element_extns" name="android_vendor_nxp_secure_element_extns" remote="arrow" />
   <project path="vendor/nxp/opensource/interfaces/nfc" name="android_vendor_nxp_interfaces_opensource_nfc" remote="arrow" />
   <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="android_vendor_nxp_opensource_external_libnfc-nci" remote="arrow" />
   <project path="vendor/nxp/opensource/commonsys/frameworks" name="android_vendor_nxp_opensource_frameworks" remote="arrow" />
