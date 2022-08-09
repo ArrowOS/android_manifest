@@ -161,6 +161,7 @@
   <!-- system repos -->
   <project path="system/bt" name="android_system_bt" remote="arrow" />
   <project path="system/core" name="android_system_core" remote="arrow" />
+  <project path="system/extras" name="android_system_extras" remote="arrow" />
   <project path="system/libhwbinder" name="android_system_libhwbinder" remote="arrow" />
   <project path="system/libziparchive" name="android_system_libziparchive" remote="arrow" />
   <project path="system/media" name="android_system_media" remote="arrow" />
