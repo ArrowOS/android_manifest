@@ -2,11 +2,46 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".."
+           fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
+
   <default revision="refs/tags/android-13.0.0_r2"
            remote="aosp"
+           sync-c="true"
+           sync-d="true"
+           sync-f="true"
            sync-j="4" />
+
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <remote  name="gitlab"
+           fetch="https://gitlab.com/" />
+
+  <remote  name="arrow"
+           fetch="https://github.com/ArrowOS"
+           review="https://review.arrowos.net/"
+           revision="refs/heads/arrow-13.0" />
+
+  <remote  name="arrow-12.1"
+           fetch="https://github.com/ArrowOS"
+           review="https://review.arrowos.net/"
+           revision="refs/heads/arrow-12.1" />
+
+  <remote  name="ArrowOS-Devices"
+           fetch="https://github.com/ArrowOS-Devices"
+           review="https://review.arrowos.net/"
+           revision="refs/heads/arrow-13.0" />
+
+  <remote  name="arrow-gitlab"
+           fetch="https://gitlab.com/arrowos-project"
+           review="https://review.arrowos.net/"
+           revision="refs/heads/arrow-12.1" />
+
+  <remote  name="arrow-next"
+           fetch="https://github.com/ArrowOS-Next"
+           review="https://review.arrowos.net/"
+           revision="refs/heads/arrow-13.0" />
 
   <superproject name="platform/superproject" remote="aosp" revision="android-13.0.0_r2" />
   <contactinfo bugurl="go/repo-bug" />
@@ -1167,4 +1202,8 @@
   <project path="tools/treble" name="platform/tools/treble" groups="tools,pdk" />
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" />
   <!-- END open-source projects -->
+
+  <!-- ArrowOS changes -->
+  <include name="remove.xml" />
+  <include name="arrow.xml" />
 </manifest>
