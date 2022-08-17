@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e692eb49_768e86b7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 353
+      },
+      "writtenOn": "2022-08-17T12:38:09Z",
+      "side": 1,
+      "message": "Track from arrow-12.1 branch",
+      "revId": "f63ee835365e9a73018cce8f5a60cd79ed06a039",
+      "serverId": "66da7299-18b4-411a-8fa2-12a880778196"
+    }
+  ]
+}
