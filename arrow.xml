@@ -76,6 +76,7 @@
 
   <!-- system repos -->
   <project path="system/core" name="android_system_core" remote="arrow" />
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="arrow" />
 
   <!-- tools repos -->
   <project path="tools/extract-utils" name="android_tools_extract-utils" remote="arrow" />
