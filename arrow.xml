@@ -25,6 +25,8 @@
   <!-- device repos -->
   <project path="device/arrow/sepolicy" name="android_device_arrow_sepolicy" remote="arrow" />
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="arrow" />
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="arrow" />
+  <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="arrow" />
 
   <!-- external repos -->
   <project path="external/json-c" name="android_external_json-c" remote="arrow" />
