@@ -53,6 +53,7 @@
   <remove-project name="platform/hardware/ril" />
 
   <!-- packages -->
+  <remove-project name="platform/packages/apps/Launcher3" />
   <remove-project name="platform/packages/apps/Settings" />
 
   <!-- system -->
