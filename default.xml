@@ -36,11 +36,6 @@
   <remote  name="arrow-gitlab"
            fetch="https://gitlab.com/arrowos-project"
            review="https://review.arrowos.net/"
-           revision="refs/heads/arrow-12.1" />
-
-  <remote  name="arrow-next"
-           fetch="https://github.com/ArrowOS-Next"
-           review="https://review.arrowos.net/"
            revision="refs/heads/arrow-13.0" />
 
   <superproject name="platform/superproject" remote="aosp" revision="android-13.0.0_r2" />
