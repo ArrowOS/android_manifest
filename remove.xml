@@ -51,6 +51,8 @@
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/libhardware_legacy" />
   <remove-project name="platform/hardware/ril" />
+  <remove-project name="platform/hardware/qcom/sdm845/display" />
+  <remove-project name="platform/hardware/qcom/sdm845/media" />
 
   <!-- packages -->
   <remove-project name="platform/packages/apps/Launcher3" />
