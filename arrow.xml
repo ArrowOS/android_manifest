@@ -42,6 +42,7 @@
   <project path="frameworks/av" name="android_frameworks_av" remote="arrow" />
   <project path="frameworks/base" name="android_frameworks_base" remote="arrow" />
   <project path="frameworks/native" name="android_frameworks_native" remote="arrow" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="arrow" />
 
   <!-- hardware repos -->
   <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" groups="qcom,pdk-qcom" remote="arrow" revision="arrow-13.0-caf" />
