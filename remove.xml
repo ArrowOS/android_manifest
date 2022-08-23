@@ -68,8 +68,15 @@
 
   <!-- system -->
   <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/extras" />
+  <remove-project name="platform/system/libhwbinder" />
+  <remove-project name="platform/system/libziparchive" />
+  <remove-project name="platform/system/logging" />
   <remove-project name="platform/system/media" />
-  <remove-project name="platform/system/libhidl" />
+  <remove-project name="platform/system/tools/mkbootimg" />
+  <remove-project name="platform/system/security" />
   <remove-project name="platform/system/sepolicy" />
+  <remove-project name="platform/system/update_engine" />
+  <remove-project name="platform/system/vold" />
 
 </manifest>
