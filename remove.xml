@@ -62,13 +62,29 @@
   <remove-project name="platform/hardware/qcom/sdm845/media" />
 
   <!-- packages -->
+  <remove-project name="platform/packages/apps/Camera2" />
+  <remove-project name="platform/packages/apps/Contacts" />
+  <remove-project name="platform/packages/apps/DeskClock" />
+  <remove-project name="platform/packages/apps/Dialer" />
+  <remove-project name="platform/packages/apps/EmergencyInfo" />
   <remove-project name="platform/packages/apps/Launcher3" />
+  <remove-project name="platform/packages/apps/Messaging" />
   <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
   <remove-project name="platform/packages/apps/ThemePicker" />
+  <remove-project name="platform/packages/apps/WallpaperPicker2" />
+  <remove-project name="platform/packages/modules/adb" />
   <remove-project name="platform/packages/modules/Bluetooth" />
+  <remove-project name="platform/packages/modules/Connectivity" />
+  <remove-project name="platform/packages/modules/Permission" />
   <remove-project name="platform/packages/modules/Wifi" />
+  <remove-project name="platform/packages/providers/ContactsProvider" />
+  <remove-project name="platform/packages/providers/DownloadProvider" />
+  <remove-project name="platform/packages/providers/MediaProvider" />
+  <remove-project name="platform/packages/providers/TelephonyProvider" />
+  <remove-project name="platform/packages/services/Telecomm" />
+  <remove-project name="platform/packages/services/Telephony" />
 
   <!-- system -->
   <remove-project name="platform/system/core" />
