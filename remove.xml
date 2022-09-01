@@ -97,6 +97,7 @@
   <remove-project name="platform/external/wpa_supplicant_8" />
   <remove-project name="platform/external/robolectric-shadows" />
   <remove-project name="platform/external/tremolo" />
+  <remove-project name="platform/external/aac" />
 
   <!-- packages -->
   <remove-project name="platform/packages/apps/Bluetooth" />
@@ -122,6 +123,9 @@
   <remove-project name="platform/packages/apps/ManagedProvisioning" />
   <remove-project name="platform/packages/providers/MediaProvider" />
   <remove-project name="platform/packages/apps/KeyChain" />
+  <remove-project name="platform/packages/apps/Car/Settings" />
+  <remove-project name="platform/packages/apps/EmergencyInfo" />
+  <remove-project name="platform/packages/services/Car" />
 
   <!-- prebuilts -->
   <remove-project name="platform/prebuilts/abi-dumps/vndk" />
