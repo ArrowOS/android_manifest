@@ -98,6 +98,7 @@
   <remove-project name="platform/external/robolectric-shadows" />
   <remove-project name="platform/external/tremolo" />
   <remove-project name="platform/external/aac" />
+  <remove-project name="platform/external/expat" />
 
   <!-- packages -->
   <remove-project name="platform/packages/apps/Bluetooth" />

@@ -195,6 +195,7 @@
   <project path="external/robolectric-shadows" name="android_external_robolectric-shadows" remote="arrow" />
   <project path="external/tremolo" name="android_external_tremolo" remote="arrow" />
   <project path="external/aac" name="android_external_aac" remote="arrow" />
+  <project path="external/expat" name="android_external_expat" remote="arrow" />
 
   <!-- prebuilt repos -->
   <project path="prebuilts/tools-extras" name="android_prebuilts_tools-extras" remote="arrow" />
