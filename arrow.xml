@@ -35,6 +35,7 @@
   <project path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl" remote="arrow" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="arrow" />
   <project path="external/exfatprogs" name="android_external_exfatprogs" remote="arrow" />
+  <project path="external/expat" name="android_external_expat" remote="arrow" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="arrow" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="arrow" />
   <project path="external/jemalloc_new" name="android_external_jemalloc_new" remote="arrow" />
