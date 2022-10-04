@@ -71,6 +71,7 @@
   <remove-project name="device/ti/beagle-x15-kernel" />
 
   <!-- external -->
+  <remove-project name="platform/external/dtc" />
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/expat" />
   <remove-project name="platform/external/f2fs-tools" />
@@ -137,6 +138,7 @@
   <remove-project name="platform/system/libhwbinder" />
   <remove-project name="platform/system/libziparchive" />
   <remove-project name="platform/system/media" />
+  <remove-project name="platform/system/nfc" />
   <remove-project name="platform/system/tools/mkbootimg" />
   <remove-project name="platform/system/security" />
   <remove-project name="platform/system/sepolicy" />
