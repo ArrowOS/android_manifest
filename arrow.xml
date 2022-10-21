@@ -95,12 +95,12 @@
   <project path="hardware/qcom-caf/sm8350/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="arrow" revision="arrow-13.0-caf-sm8350" />
   <project path="hardware/qcom-caf/sm8350/media" name="android_hardware_qcom_media" groups="qcom" remote="arrow" revision="arrow-13.0-caf-sm8350" />
   <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan" remote="arrow" revision="arrow-13.0-caf"/>
-  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="arrow" />
   <project path="hardware/qcom/sdm845/display" name="android_hardware_qcom_sdm845_display" groups="generic_fs,qcom_sdm845" remote="arrow"/>
   <project path="hardware/qcom/sdm845/media" name="android_hardware_qcom_sdm845_media" groups="generic_fs,qcom_sdm845" remote="arrow"/>
   <project path="hardware/qcom/sm8150/data/ipacfg-mgr" name="android_hardware_qcom_sm8150_data_ipacfg-mgr" groups="generic_fs,qcom_sm8150" remote="arrow" />
   <project path="hardware/qcom/sm8150/display" name="android_hardware_qcom_sm8150_display" groups="generic_fs,qcom_sm8150" remote="arrow" />
   <project path="hardware/qcom/sm8150/media" name="android_hardware_qcom_sm8150_media" groups="generic_fs,qcom_sm8150" remote="arrow" />
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="arrow" />
   <project path="hardware/arrow/interfaces" name="android_hardware_arrow_interfaces" remote="arrow" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="arrow" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="arrow" />
