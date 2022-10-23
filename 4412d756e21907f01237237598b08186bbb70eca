@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "748f6c57_b74601d2",
+        "filename": "arrow.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 71
+      },
+      "writtenOn": "2022-10-23T09:38:37Z",
+      "side": 1,
+      "message": "Already tracked",
+      "revId": "4412d756e21907f01237237598b08186bbb70eca",
+      "serverId": "66da7299-18b4-411a-8fa2-12a880778196"
+    }
+  ]
+}
