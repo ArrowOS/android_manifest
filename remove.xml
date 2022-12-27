@@ -98,6 +98,7 @@
   <remove-project name="platform/hardware/qcom/wlan" />
   <remove-project name="platform/hardware/ril" />
   <remove-project name="platform/hardware/qcom/sdm845/display" />
+  <remove-project name="platform/hardware/nxp/nfc" />
 
   <!-- packages -->
   <remove-project name="platform/packages/apps/Bluetooth" />
