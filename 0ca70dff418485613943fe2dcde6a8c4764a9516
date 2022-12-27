@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "15845ede_e991afa1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 353
+      },
+      "writtenOn": "2022-12-27T04:35:04Z",
+      "side": 1,
+      "message": "https://github.com/sarthakroy2002/android_hardware_nxp_nfc",
+      "revId": "0ca70dff418485613943fe2dcde6a8c4764a9516",
+      "serverId": "66da7299-18b4-411a-8fa2-12a880778196"
+    }
+  ]
+}
