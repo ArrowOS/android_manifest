@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f0ed9e7d_4f75ffe9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 353
+      },
+      "writtenOn": "2022-12-27T05:29:53Z",
+      "side": 1,
+      "message": "https://github.com/sarthakroy2002/android_frameworks_minikin",
+      "revId": "dd4b8dc91ce2cc9da314b6c73322b2fc5e00800a",
+      "serverId": "66da7299-18b4-411a-8fa2-12a880778196"
+    }
+  ]
+}
