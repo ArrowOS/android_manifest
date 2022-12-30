@@ -135,6 +135,7 @@
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="arrow" />
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="arrow" />
   <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="arrow" />
+  <project path="packages/apps/TouchGestures" name="android_packages_apps_TouchGestures" remote="arrow" />
   <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="arrow" />
   <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="arrow" />
   <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="arrow" />
