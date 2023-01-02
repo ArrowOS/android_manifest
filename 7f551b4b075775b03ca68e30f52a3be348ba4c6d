@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4b883a1d_ced79dcd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 600
+      },
+      "writtenOn": "2023-01-02T09:27:51Z",
+      "side": 1,
+      "message": "https://github.com/LineageOS/android_hardware_qcom_thermal",
+      "revId": "7f551b4b075775b03ca68e30f52a3be348ba4c6d",
+      "serverId": "66da7299-18b4-411a-8fa2-12a880778196"
+    }
+  ]
+}
