@@ -4,7 +4,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
-  <default revision="refs/tags/android-13.0.0_r16"
+  <default revision="refs/tags/android-13.0.0_r20"
            remote="aosp"
            sync-j="4" />
 
@@ -29,7 +29,7 @@
            review="https://review.arrowos.net/"
            revision="refs/heads/arrow-13.0" />
 
-  <superproject name="platform/superproject" remote="aosp" revision="android-13.0.0_r16" />
+  <superproject name="platform/superproject" remote="aosp" revision="android-13.0.0_r20"/>
   <contactinfo bugurl="go/repo-bug" />
 
   <!-- BEGIN open-source projects -->
