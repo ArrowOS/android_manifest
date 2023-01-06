@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "abbb0840_ae81a59e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 353
+      },
+      "writtenOn": "2023-01-06T16:06:50Z",
+      "side": 1,
+      "message": "https://github.com/LineageOS/android_hardware_qcom_vr\n\nNeeded by X00TD (k4.4)",
+      "revId": "ef648acea1d2c08f24ea8bb853ca969520589f6a",
+      "serverId": "66da7299-18b4-411a-8fa2-12a880778196"
+    }
+  ]
+}
