@@ -56,6 +56,20 @@
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="arrow" />
 
   <!-- hardware repos -->
+  <project path="hardware/arrow/compat" name="android_hardware_arrow_compat" remote="arrow" />
+  <project path="hardware/arrow/interfaces" name="android_hardware_arrow_interfaces" remote="arrow" />
+  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="arrow" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="arrow" />
+  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="arrow" />
+  <project path="hardware/qcom/sdm845/display" name="android_hardware_qcom_sdm845_display" groups="generic_fs,qcom_sdm845" remote="arrow"/>
+  <project path="hardware/qcom/sdm845/media" name="android_hardware_qcom_sdm845_media" groups="generic_fs,qcom_sdm845" remote="arrow"/>
+  <project path="hardware/qcom/sm8150/data/ipacfg-mgr" name="android_hardware_qcom_sm8150_data_ipacfg-mgr" groups="generic_fs,qcom_sm8150" remote="arrow">
+    <linkfile src="os_pickup.mk" dest="hardware/qcom/sm8150/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom/sm8150/Android.bp" />
+  </project>
+  <project path="hardware/qcom/sm8150/display" name="android_hardware_qcom_sm8150_display" groups="generic_fs,qcom_sm8150" remote="arrow" />
+  <project path="hardware/qcom/sm8150/media" name="android_hardware_qcom_sm8150_media" groups="generic_fs,qcom_sm8150" remote="arrow" />
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="arrow" />
   <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" groups="qcom,pdk-qcom" remote="arrow" revision="arrow-13.0-caf" />
   <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="arrow" >
     <!-- add guard for AOSP hardware/qcom dir -->
@@ -103,21 +117,10 @@
   <project path="hardware/qcom-caf/sm8350/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="arrow" revision="arrow-13.0-caf-sm8350" />
   <project path="hardware/qcom-caf/sm8350/media" name="android_hardware_qcom_media" groups="qcom" remote="arrow" revision="arrow-13.0-caf-sm8350" />
   <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan" remote="arrow" revision="arrow-13.0-caf"/>
-  <project path="hardware/qcom/sdm845/display" name="android_hardware_qcom_sdm845_display" groups="generic_fs,qcom_sdm845" remote="arrow"/>
-  <project path="hardware/qcom/sdm845/media" name="android_hardware_qcom_sdm845_media" groups="generic_fs,qcom_sdm845" remote="arrow"/>
-  <project path="hardware/qcom/sm8150/data/ipacfg-mgr" name="android_hardware_qcom_sm8150_data_ipacfg-mgr" groups="generic_fs,qcom_sm8150" remote="arrow">
-    <linkfile src="os_pickup.mk" dest="hardware/qcom/sm8150/Android.mk" />
-    <linkfile src="os_pickup.bp" dest="hardware/qcom/sm8150/Android.bp" />
-  </project>
-  <project path="hardware/qcom/sm8150/display" name="android_hardware_qcom_sm8150_display" groups="generic_fs,qcom_sm8150" remote="arrow" />
-  <project path="hardware/qcom/sm8150/media" name="android_hardware_qcom_sm8150_media" groups="generic_fs,qcom_sm8150" remote="arrow" />
-  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="arrow" />
-  <project path="hardware/arrow/compat" name="android_hardware_arrow_compat" remote="arrow" />
-  <project path="hardware/arrow/interfaces" name="android_hardware_arrow_interfaces" remote="arrow" />
-  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="arrow" />
-  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="arrow" />
-  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="arrow" />
   <project path="hardware/ril" name="android_hardware_ril" groups="pdk" remote="arrow" />
+
+  <!-- infrastructure repos -->
+  <project path="infrastructure/devices" name="arrow_infrastructure_devices" remote="arrow" />
 
   <!-- packages repos -->
   <project path="packages/apps/ArrowPrebuilts" name="android_packages_apps_ArrowPrebuilts" remote="arrow" clone-depth="1" />
@@ -178,9 +181,6 @@
 
   <!-- tools repos -->
   <project path="tools/extract-utils" name="android_tools_extract-utils" remote="arrow" />
-
-  <!-- infrastructure repos -->
-  <project path="infrastructure/devices" name="arrow_infrastructure_devices" remote="arrow" />
 
   <!-- vendor repos -->
   <project path="vendor/arrow" name="android_vendor_arrow" remote="arrow" />
