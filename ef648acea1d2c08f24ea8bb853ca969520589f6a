@@ -16,6 +16,23 @@
       "message": "https://github.com/LineageOS/android_hardware_qcom_vr\n\nNeeded by X00TD (k4.4)",
       "revId": "ef648acea1d2c08f24ea8bb853ca969520589f6a",
       "serverId": "66da7299-18b4-411a-8fa2-12a880778196"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f31f2547_bb4de201",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 643
+      },
+      "writtenOn": "2023-02-10T14:33:32Z",
+      "side": 1,
+      "message": "Required to boot cheeseburger/dumpling",
+      "revId": "ef648acea1d2c08f24ea8bb853ca969520589f6a",
+      "serverId": "66da7299-18b4-411a-8fa2-12a880778196"
     }
   ]
 }
