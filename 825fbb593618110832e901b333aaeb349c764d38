@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "91ac9154_1adae6c8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 643
+      },
+      "writtenOn": "2023-02-14T10:32:43Z",
+      "side": 1,
+      "message": "https://github.com/SirRGB/android_frameworks_libs_net",
+      "revId": "825fbb593618110832e901b333aaeb349c764d38",
+      "serverId": "66da7299-18b4-411a-8fa2-12a880778196"
+    }
+  ]
+}
