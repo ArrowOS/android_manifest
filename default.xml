@@ -8,27 +8,6 @@
            remote="aosp"
            sync-j="4" />
 
-  <remote  name="github"
-           fetch="https://github.com/" />
-
-  <remote  name="gitlab"
-           fetch="https://gitlab.com/" />
-
-  <remote  name="arrow"
-           fetch="https://github.com/ArrowOS"
-           review="https://review.arrowos.net/"
-           revision="refs/heads/arrow-13.0" />
-
-  <remote  name="ArrowOS-Devices"
-           fetch="https://github.com/ArrowOS-Devices"
-           review="https://review.arrowos.net/"
-           revision="refs/heads/arrow-13.0" />
-
-  <remote  name="arrow-gitlab"
-           fetch="https://gitlab.com/arrowos-project"
-           review="https://review.arrowos.net/"
-           revision="refs/heads/arrow-13.0" />
-
   <superproject name="platform/superproject" remote="aosp" revision="android-13.0.0_r20"/>
   <contactinfo bugurl="go/repo-bug" />
 
@@ -1209,4 +1188,5 @@
   <!-- ArrowOS changes -->
   <include name="remove.xml" />
   <include name="arrow.xml" />
+
 </manifest>
