@@ -16,6 +16,24 @@
       "message": "https://github.com/sarthakroy2002/android_frameworks_minikin",
       "revId": "dd4b8dc91ce2cc9da314b6c73322b2fc5e00800a",
       "serverId": "66da7299-18b4-411a-8fa2-12a880778196"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fd8c443c_a388c144",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3
+      },
+      "writtenOn": "2023-03-23T07:50:21Z",
+      "side": 1,
+      "message": "done",
+      "parentUuid": "f0ed9e7d_4f75ffe9",
+      "revId": "dd4b8dc91ce2cc9da314b6c73322b2fc5e00800a",
+      "serverId": "66da7299-18b4-411a-8fa2-12a880778196"
     }
   ]
 }
