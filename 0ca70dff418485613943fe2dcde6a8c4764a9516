@@ -16,6 +16,24 @@
       "message": "https://github.com/sarthakroy2002/android_hardware_nxp_nfc",
       "revId": "0ca70dff418485613943fe2dcde6a8c4764a9516",
       "serverId": "66da7299-18b4-411a-8fa2-12a880778196"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "62415d1d_18df7365",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3
+      },
+      "writtenOn": "2023-03-23T07:52:09Z",
+      "side": 1,
+      "message": "done",
+      "parentUuid": "15845ede_e991afa1",
+      "revId": "0ca70dff418485613943fe2dcde6a8c4764a9516",
+      "serverId": "66da7299-18b4-411a-8fa2-12a880778196"
     }
   ]
 }
