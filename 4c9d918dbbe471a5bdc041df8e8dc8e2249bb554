@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8972f8da_81202ccc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 353
+      },
+      "writtenOn": "2023-05-20T17:39:19Z",
+      "side": 1,
+      "message": "Push this: https://github.com/LineageOS/android_hardware_mediatek\n\n(I will maintain it :P)",
+      "revId": "4c9d918dbbe471a5bdc041df8e8dc8e2249bb554",
+      "serverId": "66da7299-18b4-411a-8fa2-12a880778196"
+    }
+  ]
+}
