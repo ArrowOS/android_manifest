@@ -138,6 +138,7 @@
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="arrow" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="arrow" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="arrow" />
+  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="arrow" />
   <project path="hardware/ril" name="android_hardware_ril" groups="pdk" remote="arrow" />
 
   <!-- packages repos -->
