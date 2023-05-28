@@ -16,6 +16,23 @@
       "message": "Push this: https://github.com/LineageOS/android_hardware_mediatek\n\n(I will maintain it :P)",
       "revId": "4c9d918dbbe471a5bdc041df8e8dc8e2249bb554",
       "serverId": "66da7299-18b4-411a-8fa2-12a880778196"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1170172d_17fe91a3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3
+      },
+      "writtenOn": "2023-05-28T13:45:44Z",
+      "side": 1,
+      "message": "Aditya or Daniel, pls merge!",
+      "revId": "4c9d918dbbe471a5bdc041df8e8dc8e2249bb554",
+      "serverId": "66da7299-18b4-411a-8fa2-12a880778196"
     }
   ]
 }
