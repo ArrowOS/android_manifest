@@ -59,7 +59,6 @@
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="arrow" />
   <project path="external/exfatprogs" name="android_external_exfatprogs" remote="arrow" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="arrow" />
-  <!--project path="external/faceunlock" name="android_external_faceunlock" remote="arrow-gitlab" /-->
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="arrow" />
   <project path="external/mksh" name="android_external_mksh" remote="arrow" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="arrow" />
@@ -67,6 +66,7 @@
   <project path="external/selinux" name="android_external_selinux" remote="arrow" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="arrow" />
   <project path="external/tinyxml" name="android_external_tinyxml" remote="arrow" />
+  <project path="external/yifan" name="android_external_yifan" remote="arrow" />
 
   <!-- framework repos -->
   <project path="frameworks/av" name="android_frameworks_av" remote="arrow" />
@@ -150,7 +150,7 @@
   <project path="packages/apps/DocumentsUI" name="android_packages_apps_DocumentsUI" remote="arrow" />
   <project path="packages/apps/EmergencyInfo" name="android_packages_apps_EmergencyInfo" remote="arrow" />
   <project path="packages/apps/ExactCalculator" name="android_packages_apps_ExactCalculator" remote="arrow" />
-  <!--project path="packages/apps/FaceUnlockService" name="android_packages_apps_FaceUnlockService" remote="arrow-gitlab" /-->
+  <project path="packages/apps/FaceUnlock" name="android_packages_apps_FaceUnlock" remote="arrow" />
   <!--project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="arrow" /-->
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="arrow" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="arrow" />
