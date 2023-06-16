@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "620c22be_b72dadaa",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 408
+      },
+      "writtenOn": "2023-06-16T08:45:40Z",
+      "side": 1,
+      "message": "Tested on MiPad 5 Pro(elish).\nAnd it works well done.",
+      "revId": "7173259b3f3282106f7792192fe80c590da9687b",
+      "serverId": "66da7299-18b4-411a-8fa2-12a880778196"
+    }
+  ]
+}
