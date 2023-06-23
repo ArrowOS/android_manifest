@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dfa06230_1bc21a00",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 171
+      },
+      "writtenOn": "2023-06-23T22:51:32Z",
+      "side": 1,
+      "message": "Fixes kernel building without GCC on porsche",
+      "revId": "2cc302b3547b041fa99a85c0cca60259cf4e9d1b",
+      "serverId": "66da7299-18b4-411a-8fa2-12a880778196"
+    }
+  ]
+}
