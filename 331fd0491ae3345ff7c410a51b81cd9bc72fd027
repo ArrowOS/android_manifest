@@ -16,6 +16,23 @@
       "message": "Looks good to me !",
       "revId": "331fd0491ae3345ff7c410a51b81cd9bc72fd027",
       "serverId": "66da7299-18b4-411a-8fa2-12a880778196"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "49a177cb_0e19f66b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 597
+      },
+      "writtenOn": "2023-06-25T06:55:31Z",
+      "side": 1,
+      "message": "keep it on hold on gerrit",
+      "revId": "331fd0491ae3345ff7c410a51b81cd9bc72fd027",
+      "serverId": "66da7299-18b4-411a-8fa2-12a880778196"
     }
   ]
 }
