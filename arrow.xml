@@ -167,6 +167,7 @@
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="arrow" />
   <project path="packages/modules/adb" name="android_packages_modules_adb" remote="arrow" />
   <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="arrow" />
+  <project path="packages/modules/Bluetooth/android/BtHelper" name="packages_modules_Bluetooth_android_BtHelper" remote="arrow"/>
   <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="arrow" />
   <project path="packages/modules/Permission" name="android_packages_modules_Permission" remote="arrow" />
   <project path="packages/modules/Wifi" name="android_packages_modules_Wifi" remote="arrow" />
