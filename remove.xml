@@ -23,6 +23,9 @@
   <remove-project name="device/google/coral" />
   <remove-project name="device/google/coral-kernel" />
   <remove-project name="device/google/coral-sepolicy" />
+  <remove-project name="device/google/felix" />
+  <remove-project name="device/google/felix-sepolicy" />
+  <remove-project name="device/google/felix-kernel" />
   <remove-project name="device/google/gs101" />
   <remove-project name="device/google/gs201" />
   <remove-project name="device/google/gs101-sepolicy" />
@@ -44,6 +47,9 @@
   <remove-project name="device/google/sunfish" />
   <remove-project name="device/google/sunfish-kernel" />
   <remove-project name="device/google/sunfish-sepolicy" />
+  <remove-project name="device/google/tangorpro" />
+  <remove-project name="device/google/tangorpro-kernel" />
+  <remove-project name="device/google/tangorpro-sepolicy" />
 
   <!-- external -->
   <remove-project name="platform/external/e2fsprogs" />
