@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="arrow"
+		fetch="https://git@github.com/ArrowOS"
+		revision="arrow-13.1" />
+	<default remote="arrow"
+		sync-c="true"
+		sync-j="4"  />
+	<project path="manifest" name="manifest" remote="arrow" />
+	<project path="crowdin" name="crowdin" remote="arrow" revision="master" />
+	<project path="frameworks/base" name="frameworks_base" remote="arrow" />
+	<project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="arrow" />
+</manifest>
