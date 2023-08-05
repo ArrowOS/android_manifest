@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote name="arrow"
-		fetch="https://git@github.com/ArrowOS"
-		revision="arrow-13.1" />
+	<remote  name="arrow"
+		fetch="https://github.com/ArrowOS"
+		review="https://review.arrowos.net/"
+		revision="refs/heads/arrow-13.1" />
 	<default remote="arrow"
 		sync-c="true"
 		sync-j="4"  />
