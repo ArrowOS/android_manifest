@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remove-project name="platform/bionic" />
+
+  <!-- build -->
+  <remove-project name="platform/build" />
+  <remove-project name="platform/build/soong" />
+
+  <!-- external -->
+  <remove-project name="platform/external/tinycompress" />
+
+  <!-- frameworks -->
+  <remove-project name="platform/frameworks/native" />
+
+  <!-- hardware -->
+  <remove-project name="platform/hardware/libhardware" />
+
+  <!-- system -->
+  <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/sepolicy" />
+
+</manifest>

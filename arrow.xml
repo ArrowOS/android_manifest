@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <remote  name="gitlab"
+           fetch="https://gitlab.com/" />
+
+  <remote  name="arrow"
+           fetch="https://github.com/ArrowOS"
+           review="https://review.arrowos.net/"
+           revision="refs/heads/arrow-14.0" />
+
+  <remote  name="ArrowOS-Devices"
+           fetch="https://github.com/ArrowOS-Devices"
+           review="https://review.arrowos.net/"
+           revision="refs/heads/arrow-14.0" />
+
+  <remote  name="arrow-gitlab"
+           fetch="https://gitlab.com/arrowos-project"
+           review="https://review.arrowos.net/"
+           revision="refs/heads/arrow-14.0" />
+
+  <project path="bionic" name="android_bionic" groups="pdk" remote="arrow" />
+  <project path="manifest" name="android_manifest" remote="arrow" />
+
+  <!-- build repos -->
+  <project path="build/make" name="android_build" groups="pdk" remote="arrow">
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="android_build_soong" groups="pdk,tradefed" remote="arrow">
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <!-- device repos -->
+  <project path="device/arrow/sepolicy" name="android_device_arrow_sepolicy" remote="arrow" />
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="arrow" />
+  <project path="device/qcom/sepolicy_vndr-legacy-um" name="android_device_qcom_sepolicy_vndr-legacy-um" remote="arrow" />
+
+  <!-- external repos -->
+  <project path="external/json-c" name="android_external_json-c" remote="arrow" />
+  <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" remote="arrow" />
+
+  <!-- frameworks repos -->
+  <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="arrow" />
+
+  <!-- hardware repos -->
+  <project path="hardware/arrow/compat" name="android_hardware_arrow_compat" remote="arrow" />
+  <project path="hardware/arrow/interfaces" name="android_hardware_arrow_interfaces" remote="arrow" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="arrow" />
+  <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" groups="qcom,pdk-qcom" remote="arrow" revision="arrow-14.0-caf" />
+  <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" groups="qcom,pdk-qcom" remote="arrow" >
+    <!-- add guard for AOSP hardware/qcom dir -->
+    <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
+    <!-- add guards for CAF repositories -->
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8350/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8350/Android.mk" />
+  </project>
+  <project path="hardware/qcom-caf/sm8350/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="arrow" revision="arrow-14.0-caf-sm8350" />
+  <project path="hardware/qcom-caf/sm8350/display" name="android_hardware_qcom_display" groups="qcom,qcom_display" remote="arrow" revision="arrow-14.0-caf-sm8350" />
+  <project path="hardware/qcom-caf/sm8350/media" name="android_hardware_qcom_media" groups="qcom,qcom_media" remote="arrow" revision="arrow-14.0-caf-sm8350" />
+  <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" groups="qcom,qcom_wlan" remote="arrow" revision="arrow-14.0-caf"/>
+
+  <!-- packages repos -->
+  <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="arrow" />
+
+  <!-- prebuilt repos -->
+  <project path="prebuilts/tools-extras" name="android_prebuilts_tools-extras" remote="arrow" />
+  <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" revision="refs/tags/android-14.0.0_r0.7" clone-depth="1" />
+
+  <!-- system repos -->
+  <project path="system/core" name="android_system_core" groups="pdk" remote="arrow" />
+  <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="arrow" />
+
+  <!-- tools repos -->
+  <project path="tools/extract-utils" name="android_tools_extract-utils" remote="arrow" />
+
+  <!-- vendor repos -->
+  <project path="vendor/arrow" name="android_vendor_arrow" remote="arrow" />
+  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="arrow" />
+  <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="arrow" />
+  <project path="vendor/qcom/opensource/audio-hal/st-hal" name="android_vendor_qcom_opensource_audio-hal_st-hal" remote="arrow" />
+  <project path="vendor/qcom/opensource/commonsys/display" name="android_vendor_qcom_opensource_display-commonsys" remote="arrow" />
+  <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_display-commonsys-intf" remote="arrow" />
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="arrow" />
+  <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="arrow" />
+  <project path="vendor/qcom/opensource/healthd-ext" name="android_vendor_qcom_opensource_healthd-ext" remote="arrow"/>
+  <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="arrow" />
+  <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="arrow" />
+  <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" remote="arrow" />
+  <project path="vendor/qcom/opensource/usb" name="android_vendor_qcom_opensource_usb" remote="arrow" />
+  <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" remote="arrow" />
+
+</manifest>
