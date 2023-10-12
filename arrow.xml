@@ -41,6 +41,7 @@
 
   <!-- device repos -->
   <project path="device/arrow/sepolicy" name="android_device_arrow_sepolicy" remote="arrow" />
+  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="arrow" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="arrow" />
   <project path="device/qcom/sepolicy_vndr-legacy-um" name="android_device_qcom_sepolicy_vndr-legacy-um" remote="arrow" />
 
@@ -55,6 +56,7 @@
   <project path="hardware/arrow/compat" name="android_hardware_arrow_compat" remote="arrow" />
   <project path="hardware/arrow/interfaces" name="android_hardware_arrow_interfaces" remote="arrow" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="arrow" />
+  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="arrow" />
   <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" groups="qcom,pdk-qcom" remote="arrow" revision="arrow-14.0-caf" />
   <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" groups="qcom,pdk-qcom" remote="arrow" >
     <!-- add guard for AOSP hardware/qcom dir -->
