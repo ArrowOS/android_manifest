@@ -11,10 +11,18 @@
   <remove-project name="platform/external/tinycompress" />
 
   <!-- frameworks -->
+  <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/native" />
 
   <!-- hardware -->
   <remove-project name="platform/hardware/libhardware" />
+
+  <!-- packages -->
+  <remove-project name="platform/packages/apps/Launcher3" />
+  <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/apps/ThemePicker" />
+  <remove-project name="platform/packages/apps/WallpaperPicker2" />
+  <remove-project name="platform/packages/modules/Bluetooth" />
 
   <!-- system -->
   <remove-project name="platform/system/core" />
