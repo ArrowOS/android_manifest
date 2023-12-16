@@ -12,6 +12,8 @@
   <remove-project name="platform/build/soong" />
 
   <!-- device -->
+  <remove-project name="device/amlogic/yukawa"/>
+  <remove-project name="device/amlogic/yukawa-kernel"/>
   <remove-project name="device/google/barbet" />
   <remove-project name="device/google/barbet-sepolicy" />
   <remove-project name="device/google/bluejay" />
@@ -50,6 +52,10 @@
   <remove-project name="device/google/tangorpro" />
   <remove-project name="device/google/tangorpro-kernel" />
   <remove-project name="device/google/tangorpro-sepolicy" />
+  <remove-project name="device/linaro/dragonboard"/>
+  <remove-project name="device/linaro/dragonboard-kernel"/>
+  <remove-project name="device/linaro/poplar"/>
+  <remove-project name="device/linaro/poplar-kernel"/>
 
   <!-- external -->
   <remove-project name="platform/external/e2fsprogs" />
@@ -107,6 +113,25 @@
   <remove-project name="platform/packages/providers/TelephonyProvider" />
   <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/packages/services/Telephony" />
+
+  <!-- prebuilts -->
+  <remove-project name="kernel/prebuilts/4.19/arm64"/>
+  <remove-project name="kernel/prebuilts/5.4/arm64"/>
+  <remove-project name="kernel/prebuilts/5.4/x86-64"/>
+  <remove-project name="kernel/prebuilts/5.15/arm64"/>
+  <remove-project name="kernel/prebuilts/5.15/x86-64"/>
+  <remove-project name="kernel/prebuilts/common-modules/virtual-device/4.19/arm64"/>
+  <remove-project name="kernel/prebuilts/common-modules/virtual-device/4.19/x86-64"/>
+  <remove-project name="kernel/prebuilts/common-modules/virtual-device/5.4/arm64"/>
+  <remove-project name="kernel/prebuilts/common-modules/virtual-device/5.4/x86-64"/>
+  <remove-project name="kernel/prebuilts/common-modules/virtual-device/5.15/arm64"/>
+  <remove-project name="kernel/prebuilts/common-modules/virtual-device/5.15/x86-64"/>
+  <remove-project name="kernel/prebuilts/common-modules/virtual-device/mainline/arm64"/>
+  <remove-project name="kernel/prebuilts/common-modules/virtual-device/mainline/x86-64"/>
+  <remove-project name="kernel/prebuilts/mainline/arm64"/>
+  <remove-project name="kernel/prebuilts/mainline/x86-64"/>
+  <remove-project name="platform/prebuilts/android-emulator" />
+  <remove-project name="platform/prebuilts/qemu-kernel" />
 
   <!-- system -->
   <remove-project name="platform/system/core" />
